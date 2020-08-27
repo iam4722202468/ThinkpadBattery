@@ -1,0 +1,1353 @@
+1a
+'commandName': 'SpecificationInfo', 'bytes': ['0x31'], 'checksum': 0, 'checksumStatus': False, 0, 'byteString': ''}
+'commandName': 'SpecificationInfo', 'bytes': ['0x31'], 'checksum': 0, 'checksumStatus': False, 0, 'byteString': ''}
+'commandName': 'SpecificationInfo', 'bytes': ['0x31'], 'checksum': 0, 'checksumStatus': False, 0, 'byteString': ''}
+'commandName': 'SpecificationInfo', 'bytes': ['0x31'], 'checksum': 0, 'checksumStatus': False, 0, 'byteString': ''}
+'commandName': 'SpecificationInfo', 'bytes': ['0x31'], 'checksum': 0, 'checksumStatus': False, 0, 'byteString': ''}
+
+03
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x00E0'], 'checksum': 89, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=0', '', '', ''], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x04E0'], 'checksum': 13, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=0', '', '', ''], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8000'], 'checksum': 65, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=0', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8480'], 'checksum': 156, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8480'], 'checksum': 156, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8480'], 'checksum': 156, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x00E0'], 'checksum': 89, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=0'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x04E0'], 'checksum': 13, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=0'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8000'], 'checksum': 65, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=0', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8480'], 'checksum': 156, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1'], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8000'], 'checksum': 65, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=0', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1', '', '', ''], 'byteCount': 0, 'byteString': 'BatteryMode'}
+ 3, 'commandName': 'BatteryMode', 'bytes': ['0x8480'], 'checksum': 156, 'checksumStatus': True, 'modes': ['INTERNAL_CHARGE_CONTROLLER=0', ' PRIMARY_BATTERY_SUPPORT=0', ' CONDITION_FLAG=1', ' CHARGE_CONTROLLER_ENABLED=0', ' PRIMARY_BATTERY=0', ' ALARM_MODE=0', ' CHARGER_MODE=0', ' CAPACITY_MODE=1', '', '', ''], 'byteCount': 0, 'byteString': 'BatteryMode'}
+
+18
+commandName': 'DesignCapacity', 'bytes': ['0xF0', '0x15'], 'checksum': 101, 'checksumStatus': True, 0, 'byteString': ''}
+commandName': 'DesignCapacity', 'bytes': ['0xC8', '0x19'], 'checksum': 16, 'checksumStatus': True, 0, 'byteString': ''}
+commandName': 'DesignCapacity', 'bytes': ['0xC8', '0x19'], 'checksum': 16, 'checksumStatus': True, 0, 'byteString': ''}
+commandName': 'DesignCapacity', 'bytes': ['0xF0', '0x15'], 'checksum': 101, 'checksumStatus': True, 0, 'byteString': ''}
+commandName': 'DesignCapacity', 'bytes': ['0xC4', '0x2D'], 'checksum': 96, 'checksumStatus': True, 0, 'byteString': ''}
+commandName': 'DesignCapacity', 'bytes': ['0x84', '0x3D'], 'checksum': 75, 'checksumStatus': True, 0, 'byteString': ''}
+
+19
+ 25, 'commandName': 'DesignVoltage', 'bytes': ['0x30', '0x2A'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 25, 'commandName': 'DesignVoltage', 'bytes': ['0x30', '0x2A'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 25, 'commandName': 'DesignVoltage', 'bytes': ['0x30', '0x2A'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 25, 'commandName': 'DesignVoltage', 'bytes': ['0x30', '0x2A'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 25, 'commandName': 'DesignVoltage', 'bytes': ['0x30', '0x2A'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 25, 'commandName': 'DesignVoltage', 'bytes': ['0x30', '0x2A'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+
+1b
+ 27, 'commandName': 'ManufactureDate', 'bytes': ['0x9C3D'], 'checksum': 142, 'checksumStatus': True, 'modes': ['1/29/1994', '', '', '', '', '', '', '', '', '', ''], 'byteCount': 0, 'byteString': 'ManufactureDate'}
+ 27, 'commandName': 'ManufactureDate', 'bytes': ['0x2A4F'], 'checksum': 230, 'checksumStatus': True, 'modes': ['2/15/2001'], 'byteCount': 0, 'byteString': 'ManufactureDate'}
+ 27, 'commandName': 'ManufactureDate', 'bytes': ['0x2A4F'], 'checksum': 230, 'checksumStatus': True, 'modes': ['2/15/2001'], 'byteCount': 0, 'byteString': 'ManufactureDate'}
+ 27, 'commandName': 'ManufactureDate', 'bytes': ['0x9C3D'], 'checksum': 142, 'checksumStatus': True, 'modes': ['1/29/1994'], 'byteCount': 0, 'byteString': 'ManufactureDate'}
+ 27, 'commandName': 'ManufactureDate', 'bytes': ['0x1F4D'], 'checksum': 80, 'checksumStatus': True, 'modes': ['10/13/1995'], 'byteCount': 0, 'byteString': 'ManufactureDate'}
+ 27, 'commandName': 'ManufactureDate', 'bytes': ['0x1F4D'], 'checksum': 80, 'checksumStatus': True, 'modes': ['10/13/1995', '', '', '', '', '', '', '', '', '', ''], 'byteCount': 0, 'byteString': 'ManufactureDate'}
+
+1c
+ 28, 'commandName': 'SerialNumber', 'bytes': ['0x67', '0x28'], 'checksum': 4, 'checksumStatus': True, 0, 'byteString': ''}
+ 28, 'commandName': 'SerialNumber', 'bytes': ['0xFF', '0x04'], 'checksum': 137, 'checksumStatus': True, 0, 'byteString': ''}
+ 28, 'commandName': 'SerialNumber', 'bytes': ['0x67', '0x28'], 'checksum': 4, 'checksumStatus': True, 0, 'byteString': ''}
+ 28, 'commandName': 'SerialNumber', 'bytes': ['0xD3', '0x04'], 'checksum': 219, 'checksumStatus': True, 0, 'byteString': ''}
+ 28, 'commandName': 'SerialNumber', 'bytes': ['0xD3', '0x04'], 'checksum': 219, 'checksumStatus': True, 0, 'byteString': ''}
+
+20
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x4C', '0x47', '0x43', '0x00', '0x31', '0x31'], 'checksum': 204, 'checksumStatus': True, 6, 'byteString': ''}
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x53', '0x4F', '0x4E', '0x59'], 'checksum': 48, 'checksumStatus': True, 4, 'byteString': ''}
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x53', '0x4F', '0x4E', '0x59'], 'checksum': 48, 'checksumStatus': True, 4, 'byteString': ''}
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x4C', '0x47', '0x43', '0x00', '0x31', '0x31'], 'checksum': 204, 'checksumStatus': True, 6, 'byteString': ''}
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x4C', '0x4F', '0x2B', '0x16', '0x1A', '0x19', '0x2A', '0x1A', '0x1C', '0x18', '0x18'], 'checksum': 67, 'checksumStatus': False, 11, 'byteString': ''}
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x53', '0x4F', '0x4E', '0x59'], 'checksum': 48, 'checksumStatus': True, 4, 'byteString': ''}
+ 32, 'commandName': 'ManufacturerName', 'bytes': ['0x53', '0x4F', '0x4E', '0x59'], 'checksum': 48, 'checksumStatus': True, 4, 'byteString': ''}
+
+21
+ 33, 'commandName': 'DeviceName', 'bytes': ['0x4C', '0x4E', '0x56', '0x2D', '0x34', '0x32', '0x54', '0x34', '0x39', '0x31', '0x31'], 'checksum': 134, 'checksumStatus': True, 11, 'byteString': ''}
+ 33, 'commandName': 'DeviceName', 'bytes': ['0x4C', '0x4E', '0x56', '0x2D', '0x34', '0x31', '0x2A', '0x1A', '0x1B', '0x1B', '0x1A'], 'checksum': 55, 'checksumStatus': False, 11, 'byteString': ''}
+ 33, 'commandName': 'DeviceName', 'bytes': ['0x4C', '0x4E', '0x56', '0x2D', '0x34', '0x32', '0x54', '0x34', '0x37', '0x36', '0x35'], 'checksum': 221, 'checksumStatus': True, 11, 'byteString': ''}
+ 33, 'commandName': 'DeviceName', 'bytes': ['0x4C', '0x4E', '0x56', '0x2D', '0x34', '0x32', '0x54', '0x34', '0x37', '0x36', '0x35'], 'checksum': 221, 'checksumStatus': True, 11, 'byteString': ''}
+ 33, 'commandName': 'DeviceName', 'bytes': ['0x4C', '0x4E', '0x56', '0x2D', '0x34', '0x32', '0x54', '0x34', '0x37', '0x36', '0x35'], 'checksum': 221, 'checksumStatus': True, 11, 'byteString': ''}
+
+22
+ 34, 'commandName': 'DeviceChemistry', 'bytes': ['0x4C', '0x49', '0x4F', '0x4E'], 'checksum': 49, 'checksumStatus': True, 4, 'byteString': ''}
+ 34, 'commandName': 'DeviceChemistry', 'bytes': ['0x4C', '0x49', '0x4F', '0x4E'], 'checksum': 49, 'checksumStatus': True, 4, 'byteString': ''}
+ 34, 'commandName': 'DeviceChemistry', 'bytes': ['0x4C', '0x49', '0x4F', '0x4E'], 'checksum': 49, 'checksumStatus': True, 4, 'byteString': ''}
+ 34, 'commandName': 'DeviceChemistry', 'bytes': ['0x4C', '0x49', '0x4F', '0x4E'], 'checksum': 49, 'checksumStatus': True, 4, 'byteString': ''}
+ 34, 'commandName': 'DeviceChemistry', 'bytes': ['0x4C', '0x49', '0x4F', '0x4E'], 'checksum': 49, 'checksumStatus': True, 4, 'byteString': ''}
+ 34, 'commandName': 'DeviceChemistry', 'bytes': ['0x4C', '0x49', '0x4F', '0x4E'], 'checksum': 49, 'checksumStatus': True, 4, 'byteString': ''}
+
+3c
+commandName': 'OptionalMfgFunction4', ['0x4C', '0x65', '0x6E', '0x6F', '0x76', '0x6F', '0x20', '0x4A', '0x61', '0x70', '0x61', '0x6E', '0x91', '0x2E', '0x5D', '0xE6']
+commandName': 'OptionalMfgFunction4', ['0x4C', '0x45', '0x4E', '0x4F', '0x56', '0x4F', '0xED', '0xE6', '0x91', '0x65']
+commandName': 'OptionalMfgFunction4', ['0x4C', '0x65', '0x6E', '0x6F', '0x76', '0x6F', '0x20', '0x4A', '0x61', '0x70', '0x61', '0x6E', '0x92', '0x2E', '0x5D', '0x43']
+commandName': 'OptionalMfgFunction4', ['0x4C', '0x45', '0x4E', '0x4F', '0x56', '0x4F', '0xD2', '0x44', '0x1A', '0x11']
+commandName': 'OptionalMfgFunction4', ['0x4C', '0x45', '0x4E', '0x4F', '0x56', '0x4F', '0xD2', '0xB0', '0x1A', '0x0D']
+
+35
+ 53, 'commandName': '<error>', 'bytes': ['0xE0', '0x00'], 'checksum': 116, 'checksumStatus': False, 0, 'byteString': ''}
+ 53, 'commandName': '<error>', 'bytes': ['0x80', '0x00'], 'checksum': 156, 'checksumStatus': True, 0, 'byteString': ''}
+ 53, 'commandName': '<error>', 'bytes': ['0xE0', '0x00'], 'checksum': 105, 'checksumStatus': True, 0, 'byteString': ''}
+ 53, 'commandName': '<error>', 'bytes': ['0x40', '0x00'], 'checksum': 78, 'checksumStatus': False, 0, 'byteString': ''}
+ 53, 'commandName': '<error>', 'bytes': ['0x80', '0x00'], 'checksum': 156, 'checksumStatus': True, 0, 'byteString': ''}
+
+37
+ 55, 'commandName': '<error>', 'bytes': ['0x01', '0x00', '0x07', '0x00', '0xC2', '0x01', '0xC2', '0x01'], 'checksum': 236, 'checksumStatus': True, 8, 'byteString': ''}
+ 55, 'commandName': '<error>', 'bytes': ['0x04', '0x00', '0x3D', '0x5E', '0x61', '0x01', '0x40', '0x01'], 'checksum': 250, 'checksumStatus': True, 8, 'byteString': ''}
+ 55, 'commandName': '<error>', 'bytes': ['0x01', '0x00', '0x07', '0x00', '0xC2', '0x01', '0xC2', '0x01'], 'checksum': 236, 'checksumStatus': True, 8, 'byteString': ''}
+ 55, 'commandName': '<error>', 'bytes': ['0x04', '0x00', '0x3D', '0x5E', '0x61', '0x01', '0x40', '0x01'], 'checksum': 250, 'checksumStatus': True, 8, 'byteString': ''}
+ 55, 'commandName': '<error>', 'bytes': ['0x04', '0x00', '0x3D', '0x5E', '0x61', '0x01', '0x40', '0x01'], 'checksum': 250, 'checksumStatus': True, 8, 'byteString': ''}
+
+2f
+ 47, 'commandName': 'OptionalMfgFunction5', 'bytes': ['0x31', '0x5A', '0x4A', '0x33', '0x4A', '0x31', '0x31', '0x4D', '0x31', '0x32', '0x58'], 'checksum': 37, 'checksumStatus': True, 11, 'byteString': ''}
+ 47, 'commandName': 'OptionalMfgFunction5', 'bytes': ['0x31', '0x5A', '0x4A', '0x33', '0x4A', '0x31', '0x38', '0x26', '0x18', '0x19', '0x2C'], 'checksum': 18, 'checksumStatus': False, 11, 'byteString': ''}
+ 47, 'commandName': 'OptionalMfgFunction5', 'bytes': ['0x31', '0x5A', '0x37', '0x53', '0x53', '0x33', '0x19', '0x21', '0x18', '0x19', '0x18'], 'checksum': 121, 'checksumStatus': False, 11, 'byteString': ''}
+ 47, 'commandName': 'OptionalMfgFunction5', 'bytes': ['0x31', '0x5A', '0x37', '0x53', '0x53', '0x33', '0x33', '0x43', '0x31', '0x32', '0x31'], 'checksum': 242, 'checksumStatus': True, 11, 'byteString': ''}
+
+3e
+ 62, 'commandName': 'OptionalMfgFunction2', 'bytes': ['0x21', '0x00'], 'checksum': 27, 'checksumStatus': True, 0, 'byteString': ''}
+ 62, 'commandName': 'OptionalMfgFunction2', 'bytes': ['0x01', '0x00'], 'checksum': 181, 'checksumStatus': True, 0, 'byteString': ''}
+ 62, 'commandName': 'OptionalMfgFunction2', 'bytes': ['0x21', '0x00'], 'checksum': 27, 'checksumStatus': True, 0, 'byteString': ''}
+ 62, 'commandName': 'OptionalMfgFunction2', 'bytes': ['0x01', '0x00'], 'checksum': 181, 'checksumStatus': True, 0, 'byteString': ''}
+ 62, 'commandName': 'OptionalMfgFunction2', 'bytes': ['0x01', '0x00'], 'checksum': 181, 'checksumStatus': True, 0, 'byteString': ''}
+
+3f
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x28', '0x3F'], 'checksum': 13, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x28', '0x3F'], 'checksum': 13, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x2F', '0x4F'], 'checksum': 24, 'checksumStatus': False, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x2F', '0x4F'], 'checksum': 49, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x28', '0x3F'], 'checksum': 13, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x28', '0x3F'], 'checksum': 13, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x24', '0x4D'], 'checksum': 168, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x24', '0x4D'], 'checksum': 168, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x24', '0x4D'], 'checksum': 168, 'checksumStatus': True, 0, 'byteString': ''}
+ 63, 'commandName': 'OptionalMfgFunction1', 'bytes': ['0x24', '0x4D'], 'checksum': 168, 'checksumStatus': True, 0, 'byteString': ''}
+
+00
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x02', '0x10'], 'checksum': 151, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 0, 'commandName': 'ManufacturerAccess', 'bytes': ['0x18', '0x00'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+
+16
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 209, 'checksumStatus': False, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 201, 'checksumStatus': False, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE060'], 'checksum': 105, 'checksumStatus': False, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=1', ' FULLY CHARGED=1', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x0000'], 'checksum': 228, 'checksumStatus': False, 'modes': ['OVER CHARGED ALARM=0', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0xE0C0'], 'checksum': 211, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=1', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=1', ' DISCHARGING=1', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x8000'], 'checksum': 104, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x8000'], 'checksum': 104, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x8000'], 'checksum': 104, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x8000'], 'checksum': 104, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=0', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=OK'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+ 22, 'commandName': 'BatteryStatus', 'bytes': ['0x900A'], 'checksum': 9, 'checksumStatus': True, 'modes': ['OVER CHARGED ALARM=1', ' TERMINATE CHARGE ALARM=0', ' OVER TEMP ALARM=1', ' TERMINATE DISCHARGE ALARM=0', ' REMAINING CAPACITY ALARM=0', ' REMAINING TIME ALARM=0', ' INITIALIZED=0', ' DISCHARGING=0', ' FULLY CHARGED=0', ' FULLY DISCHARGED=0', ' ErrorCode=ReservedCommand'], 'byteCount': 0, 'byteString': 'BatteryStatus'}
+
+14
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 242, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xCF', '0xF9'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xCF', '0xF9'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xCF', '0xF9'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xCF', '0xF9'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 20, 'commandName': 'ChargingCurrent', 'bytes': ['0xE4', '0x0C'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+
+15
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 114, 'checksumStatus': False, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x00', '0x00'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 21, 'commandName': 'ChargingVoltage', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+
+08
+ 8, 'commandName': 'Temperature', 'bytes': ['0x89', '0x0B'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x89', '0x0B'], 'checksum': 113, 'checksumStatus': False, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x89', '0x0B'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x89', '0x0B'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x49', '0x05'], 'checksum': 67, 'checksumStatus': False, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x87', '0x0B'], 'checksum': 145, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x87', '0x0B'], 'checksum': 145, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x87', '0x0B'], 'checksum': 145, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x87', '0x0B'], 'checksum': 145, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x92', '0x0B'], 'checksum': 135, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0xD3', '0x74'], 'checksum': 179, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0xD3', '0x74'], 'checksum': 179, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 80, 'checksumStatus': False, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0xD3', '0x74'], 'checksum': 179, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0xD3', '0x74'], 'checksum': 179, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': False, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 8, 'commandName': 'Temperature', 'bytes': ['0x9C', '0x0B'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+
+3b
+ 59, 'commandName': '<error>', 'bytes': ['0x87', '0x0B'], 'checksum': 2, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x87', '0x0B'], 'checksum': 2, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x88', '0x0B'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x89', '0x05'], 'checksum': 5, 'checksumStatus': False, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x89', '0x0B'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x89', '0x0B'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x89', '0x0B'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x89', '0x0B'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 10, 'checksumStatus': False, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x92', '0x0B'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0xD3', '0x74'], 'checksum': 32, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0xD3', '0x74'], 'checksum': 32, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0xD3', '0x74'], 'checksum': 32, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0xD3', '0x74'], 'checksum': 32, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 59, 'commandName': '<error>', 'bytes': ['0x9C', '0x0B'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+
+09
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xFF', '0x7F'], 'checksum': 90, 'checksumStatus': False, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5B', '0x30'], 'checksum': 96, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x59', '0x30'], 'checksum': 74, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5D', '0x30'], 'checksum': 30, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x59', '0x30'], 'checksum': 74, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5C', '0x30'], 'checksum': 11, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5C', '0x30'], 'checksum': 11, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5C', '0x30'], 'checksum': 11, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5B', '0x30'], 'checksum': 96, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x57', '0x30'], 'checksum': 156, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5B', '0x30'], 'checksum': 96, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5B', '0x30'], 'checksum': 96, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x5A', '0x30'], 'checksum': 117, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x56', '0x30'], 'checksum': 137, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x51', '0x30'], 'checksum': 226, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x4F', '0x30'], 'checksum': 99, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xD1', '0x30'], 'checksum': 84, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xD8', '0x18'], 'checksum': 42, 'checksumStatus': False, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xCF', '0x30'], 'checksum': 213, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xCF', '0x30'], 'checksum': 213, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8D', '0x1D'], 'checksum': 103, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x8C', '0x1D'], 'checksum': 114, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xBB', '0x30'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xBB', '0x30'], 'checksum': 35, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x7A', '0x30'], 'checksum': 219, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x79', '0x30'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x78', '0x30'], 'checksum': 241, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x76', '0x30'], 'checksum': 39, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x73', '0x30'], 'checksum': 102, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x72', '0x30'], 'checksum': 115, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x73', '0x30'], 'checksum': 102, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x70', '0x30'], 'checksum': 89, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x72', '0x30'], 'checksum': 115, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x70', '0x30'], 'checksum': 89, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6E', '0x30'], 'checksum': 216, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xEF', '0xFD'], 'checksum': 22, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xEF', '0xFD'], 'checksum': 22, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x98', '0x1D'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xA4', '0x1D'], 'checksum': 123, 'checksumStatus': False, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xA4', '0x1D'], 'checksum': 116, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xAD', '0x1D'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xA3', '0x1D'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6F', '0x1D'], 'checksum': 14, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6F', '0x1D'], 'checksum': 14, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6E', '0x1D'], 'checksum': 27, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x7A', '0x1D'], 'checksum': 24, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xEF', '0xFD'], 'checksum': 22, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xEF', '0xFD'], 'checksum': 22, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xA8', '0x1D'], 'checksum': 136, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xAA', '0x1D'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xA4', '0x1D'], 'checksum': 116, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xAC', '0x1D'], 'checksum': 220, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0xA5', '0x1D'], 'checksum': 97, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6F', '0x1D'], 'checksum': 14, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6E', '0x1D'], 'checksum': 27, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x6F', '0x1D'], 'checksum': 14, 'checksumStatus': True, 0, 'byteString': ''}
+ 9, 'commandName': 'Voltage', 'bytes': ['0x7A', '0x1D'], 'checksum': 24, 'checksumStatus': True, 0, 'byteString': ''}
+
+0f
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x80', '0x15'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x80', '0x15'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7F', '0x15'], 'checksum': 21, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7F', '0x15'], 'checksum': 21, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7E', '0x15'], 'checksum': 0, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7E', '0x15'], 'checksum': 0, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7E', '0x15'], 'checksum': 0, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7D', '0x15'], 'checksum': 63, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7D', '0x15'], 'checksum': 63, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7C', '0x15'], 'checksum': 42, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7C', '0x15'], 'checksum': 42, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7B', '0x15'], 'checksum': 65, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7B', '0x15'], 'checksum': 65, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7A', '0x15'], 'checksum': 84, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x7A', '0x15'], 'checksum': 84, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x0B', '0x14'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x0B', '0x14'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x52', '0x0A'], 'checksum': 22, 'checksumStatus': False, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0xA5', '0x14'], 'checksum': 22, 'checksumStatus': False, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 15, 'checksumStatus': False, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x95', '0x15'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x95', '0x15'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x95', '0x15'], 'checksum': 212, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x94', '0x15'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x94', '0x15'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x93', '0x15'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x93', '0x15'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x92', '0x15'], 'checksum': 191, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x92', '0x15'], 'checksum': 191, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x92', '0x15'], 'checksum': 191, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x90', '0x15'], 'checksum': 149, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x90', '0x15'], 'checksum': 149, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x8F', '0x15'], 'checksum': 1, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x19', '0x2C'], 'checksum': 49, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x19', '0x2C'], 'checksum': 49, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x19', '0x2C'], 'checksum': 49, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x19', '0x2C'], 'checksum': 49, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+ 15, 'commandName': 'RemainingCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 31, 'checksumStatus': True, 0, 'byteString': ''}
+
+10
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x14'], 'checksum': 56, 'checksumStatus': False, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x0E', '0x14'], 'checksum': 16, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x0E', '0x14'], 'checksum': 16, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x1A'], 'checksum': 56, 'checksumStatus': False, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x00', '0x00'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x54', '0x0A'], 'checksum': 56, 'checksumStatus': False, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xA8', '0x15'], 'checksum': 113, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x22', '0x40'], 'checksum': 28, 'checksumStatus': False, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x45', '0x80'], 'checksum': 57, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x45', '0x80'], 'checksum': 57, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0x45', '0x80'], 'checksum': 57, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+ 16, 'commandName': 'FullChargeCapacity', 'bytes': ['0xC6', '0x0D'], 'checksum': 26, 'checksumStatus': True, 0, 'byteString': ''}
+
+0a
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xE3', '0xFC'], 'checksum': 215, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xEA', '0xFC'], 'checksum': 106, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF2', '0xFC'], 'checksum': 149, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xCE', '0xFC'], 'checksum': 144, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFD', '0xFC'], 'checksum': 86, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF4', '0xFC'], 'checksum': 235, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xEE', '0xFC'], 'checksum': 62, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xE7', '0xFC'], 'checksum': 131, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xC3', '0xFC'], 'checksum': 121, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF6', '0xFC'], 'checksum': 193, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFC', '0xFC'], 'checksum': 67, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFA', '0xFC'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF4', '0xFC'], 'checksum': 235, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xDD', '0xFC'], 'checksum': 248, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xEA', '0xFC'], 'checksum': 106, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 40, 'checksumStatus': False, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xE9', '0xFC'], 'checksum': 85, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xED', '0xFC'], 'checksum': 1, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF4', '0xFC'], 'checksum': 235, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFA', '0xFC'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFB', '0xFC'], 'checksum': 40, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFA', '0x7E'], 'checksum': 117, 'checksumStatus': False, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xB8', '0xFC'], 'checksum': 76, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xE9', '0xFC'], 'checksum': 85, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xEE', '0xFC'], 'checksum': 62, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF3', '0xFC'], 'checksum': 128, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xFC', '0xFC'], 'checksum': 67, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF7', '0x35'], 'checksum': 165, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF7', '0x35'], 'checksum': 165, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x38', '0x31'], 'checksum': 34, 'checksumStatus': False, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF7', '0x35'], 'checksum': 165, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0xF7', '0x35'], 'checksum': 165, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+ 10, 'commandName': 'Current', 'bytes': ['0x00', '0x00'], 'checksum': 81, 'checksumStatus': True, 0, 'byteString': ''}
+
+11
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x7F', '0x01'], 'checksum': 218, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x83', '0x01'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x86', '0x01'], 'checksum': 115, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x75', '0x01'], 'checksum': 88, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x8B', '0x01'], 'checksum': 154, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x87', '0x01'], 'checksum': 102, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x84', '0x01'], 'checksum': 89, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x81', '0x01'], 'checksum': 24, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x81', '0x01'], 'checksum': 24, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x88', '0x01'], 'checksum': 165, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x8B', '0x01'], 'checksum': 154, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x8A', '0x01'], 'checksum': 143, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x87', '0x01'], 'checksum': 102, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x7E', '0x01'], 'checksum': 207, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x81', '0x01'], 'checksum': 24, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0x7F'], 'checksum': 76, 'checksumStatus': False, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x84', '0x01'], 'checksum': 89, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x85', '0x01'], 'checksum': 76, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x89', '0x01'], 'checksum': 176, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x8C', '0x01'], 'checksum': 241, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x8C', '0x01'], 'checksum': 241, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x89', '0x01'], 'checksum': 176, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x6D', '0x01'], 'checksum': 167, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x83', '0x01'], 'checksum': 50, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x86', '0x01'], 'checksum': 115, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x88', '0x01'], 'checksum': 165, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0x8D', '0x01'], 'checksum': 228, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 85, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 85, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 85, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 85, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+ 17, 'commandName': 'RunTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 152, 'checksumStatus': True, 0, 'byteString': ''}
+
+0b
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 35, 'checksumStatus': False, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE8', '0xFC'], 'checksum': 86, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xFC'], 'checksum': 67, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF0', '0xFC'], 'checksum': 169, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF6', '0xFC'], 'checksum': 215, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE4', '0xFC'], 'checksum': 170, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF7', '0xFC'], 'checksum': 194, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xEF', '0xFC'], 'checksum': 61, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xFC'], 'checksum': 67, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xFC'], 'checksum': 67, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF3', '0xFC'], 'checksum': 150, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF9', '0xFC'], 'checksum': 20, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xFA', '0xFC'], 'checksum': 43, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF4', '0xFC'], 'checksum': 253, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xEA', '0xFC'], 'checksum': 124, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE8', '0xFC'], 'checksum': 86, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xB7', '0xFC'], 'checksum': 153, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE0', '0xC0'], 'checksum': 211, 'checksumStatus': False, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xED', '0xFC'], 'checksum': 23, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF4', '0xFC'], 'checksum': 253, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xFA', '0xFC'], 'checksum': 43, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xFB', '0xFC'], 'checksum': 62, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF5', '0xFC'], 'checksum': 232, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xC6', '0xFC'], 'checksum': 46, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xFC'], 'checksum': 67, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xEC', '0xFC'], 'checksum': 2, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF2', '0xFC'], 'checksum': 131, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xF3', '0xFC'], 'checksum': 150, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xEF'], 'checksum': 58, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xEF'], 'checksum': 58, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xEF'], 'checksum': 58, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0xE9', '0xEF'], 'checksum': 58, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+ 11, 'commandName': 'AverageCurrent', 'bytes': ['0x00', '0x00'], 'checksum': 71, 'checksumStatus': True, 0, 'byteString': ''}
+
+13
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0x7F', '0xBF'], 'checksum': 168, 'checksumStatus': False, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 186, 'checksumStatus': False, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0x7F'], 'checksum': 90, 'checksumStatus': False, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0x78', '0x97'], 'checksum': 118, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0x78', '0x97'], 'checksum': 118, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0x78', '0x95'], 'checksum': 120, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0x78', '0x95'], 'checksum': 120, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+ 19, 'commandName': 'AverageTimeToFull', 'bytes': ['0xFF', '0xFF'], 'checksum': 180, 'checksumStatus': True, 0, 'byteString': ''}
+
+12
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x7F', '0x01'], 'checksum': 224, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x83', '0x01'], 'checksum': 8, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x86', '0x01'], 'checksum': 73, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x75', '0x01'], 'checksum': 98, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x8B', '0x01'], 'checksum': 160, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x87', '0x01'], 'checksum': 92, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x84', '0x01'], 'checksum': 99, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x81', '0x01'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x81', '0x01'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x88', '0x01'], 'checksum': 159, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x8B', '0x01'], 'checksum': 160, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x8A', '0x01'], 'checksum': 181, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x87', '0x01'], 'checksum': 92, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x7E', '0x01'], 'checksum': 245, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x81', '0x01'], 'checksum': 34, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x84', '0x01'], 'checksum': 99, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x85', '0x01'], 'checksum': 118, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x89', '0x01'], 'checksum': 138, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x8C', '0x01'], 'checksum': 203, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x8C', '0x01'], 'checksum': 203, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x89', '0x01'], 'checksum': 138, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x6D', '0x01'], 'checksum': 157, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x83', '0x01'], 'checksum': 8, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x86', '0x01'], 'checksum': 73, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x88', '0x01'], 'checksum': 159, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0x8D', '0x01'], 'checksum': 222, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 111, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 111, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 111, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xC6', '0x7F'], 'checksum': 111, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+ 18, 'commandName': 'AverageTimeToEmpty', 'bytes': ['0xFF', '0xFF'], 'checksum': 162, 'checksumStatus': True, 0, 'byteString': ''}
+
+17
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x78', '0x00'], 'checksum': 100, 'checksumStatus': False, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x14', '0x05'], 'checksum': 208, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0xF1', '0x00'], 'checksum': 201, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+ 23, 'commandName': 'CycleCount', 'bytes': ['0x6A', '0x02'], 'checksum': 177, 'checksumStatus': True, 0, 'byteString': ''}
+
+0c
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 18, 'checksumStatus': False, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': False, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x00', '0x00'], 'checksum': 37, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x08', '0x00'], 'checksum': 141, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+ 12, 'commandName': 'MaxError', 'bytes': ['0x02', '0x00'], 'checksum': 15, 'checksumStatus': True, 0, 'byteString': ''}
+
+0d
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x63', '0x00'], 'checksum': 249, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 147, 'checksumStatus': False, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0xF5', '0x9B'], 'checksum': 174, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0xF5', '0x9B'], 'checksum': 174, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0xF5', '0x9B'], 'checksum': 174, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0xF5', '0x9B'], 'checksum': 174, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+ 13, 'commandName': 'RelativeStateOfCharge', 'bytes': ['0x00', '0x00'], 'checksum': 51, 'checksumStatus': True, 0, 'byteString': ''}
+
+23
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x01', '0x00', '0x62', '0x07', '0x62', '0x07', '0x03', '0x18'], 'checksum': 95, 'checksumStatus': False, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x01', '0x00', '0x62', '0x07', '0x62', '0x07', '0x03', '0x18'], 'checksum': 47, 'checksumStatus': False, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x02', '0x00', '0xC4', '0x0E', '0xC6', '0x0E', '0x07', '0x30'], 'checksum': 172, 'checksumStatus': True, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x02', '0x00', '0xC4', '0x0E', '0xC6', '0x0E', '0x07', '0x30'], 'checksum': 172, 'checksumStatus': True, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x02', '0x00', '0xC4', '0x0E', '0xC7', '0x0E', '0x07', '0x30'], 'checksum': 186, 'checksumStatus': True, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x36', '0x00', '0x16', '0x00', '0x00', '0x01', '0x00', '0x18', '0x01', '0x98', '0xC1', '0x80', '0xC6'], 'checksum': 23, 'checksumStatus': False, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x02', '0x00', '0xC4', '0x0E', '0xC6', '0x07', '0x03', '0x18'], 'checksum': 86, 'checksumStatus': False, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x01', '0x2D', '0x01', '0x2D', '0x00', '0x00', '0x02', '0x00', '0xC4', '0x0E', '0xC6', '0x0E', '0x07', '0x30'], 'checksum': 172, 'checksumStatus': True, 14, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x07', '0x43', '0x07', '0x43', '0x07'], 'checksum': 13, 'checksumStatus': False, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+ 35, 'commandName': 'ManufacturerData', 'bytes': ['0x42', '0x0A', '0x05', '0x12', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F', '0x86', '0x0F'], 'checksum': 27, 'checksumStatus': True, 12, 'byteString': ''}
+
+30
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xF5', '0x0D', '0x60', '0x04', '0x0A', '0x00', '0x00', '0x00', '0x00'], 'checksum': 45, 'checksumStatus': False, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 91, 'checksumStatus': False, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x19', '0x84', '0x4A', '0x97', '0x00', '0x0B', '0x00'], 'checksum': 8, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x70', '0x9C', '0x5B', '0x1C', '0xA1', '0x12', '0x25', '0x80', '0x02', '0x80'], 'checksum': 2, 'checksumStatus': False, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1D', '0x60', '0x04', '0x0A', '0x00', '0x00', '0x00', '0x00'], 'checksum': 45, 'checksumStatus': False, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 45, 'checksumStatus': False, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+ 48, 'commandName': '<error>', 'bytes': ['0x09', '0xEB', '0x1A', '0xC1', '0x09', '0x15', '0x00', '0x00', '0x00', '0x00'], 'checksum': 90, 'checksumStatus': True, 10, 'byteString': ''}
+
+3d
+ 61, 'commandName': 'OptionalMfgFunction3', 'bytes': ['0x88', '0x0B'], 'checksum': 193, 'checksumStatus': False, 0, 'byteString': ''}
+
+06
+commandName': 'AtRateTimeToEmpty', 'bytes': ['0x64', '0x00'], 'checksum': 146, 'checksumStatus': False, 0, 'byteString': ''}
+
+
+
+[['4', '0',  '45', '0', '0', '12'],   ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '142', '46', '93', '207', '33']]
+[['4', '0',  '45', '0', '0', '12'],   ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '144', '46', '93', '137', '87']]
+[['4', '0',  '45', '0', '0', '12'],   ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '145', '46', '93', '230', '75']]
+[['4', '0',  '45', '0', '0', '12'],   ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '146', '46', '93', '67', '3']]
+[['4', '0',  '45', '0', '0', '12'],   ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '143', '46', '93', '44', '144']]
+[['4', '0',  '46', '0', '0', '177'],  ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '147', '254', '93', '165', '134']]
+[['4', '0',  '46', '0', '0', '177'],  ['16', '76', '101', '110', '111', '118', '111', '32', '74', '97', '112', '97', '110', '145', '254', '93', '235', '71']]
+[['4', '42', '57', '0', '0', '87'],   ['10', '76', '69', '78', '79', '86', '79', '210', '216', '26', '20', '170']]
+[['4', '42', '55', '0', '0', '123'],  ['10', '76', '69', '78', '79', '86', '79', '210', '68', '26', '17', '226']]
+[['4', '42', '42', '0', '0', '72'],   ['10', '76', '69', '78', '79', '86', '79', '210', '2', '26', '250', '134']]
+[['4', '42', '49', '0', '0', '6'],    ['10', '76', '69', '78', '79', '86', '79', '210', '136', '26', '6', '240']]
+[['4', '39', '182', '0', '0', '229'], ['10', '76', '69', '78', '79', '86', '79', '210', '248', '26', '202', '253']]
+[['4', '40', '180', '0', '0', '225'], ['10', '76', '69', '78', '79', '86', '79', '210', '62', '26', '213', '80']]
+[['4', '40', '164', '0', '0', '67'],  ['10', '76', '69', '78', '79', '86', '79', '210', '190', '26', '184', '95']]
+[['4', '40', '34', '0', '0', '53'],   ['10', '76', '69', '78', '79', '86', '79', '210', '46', '26', '209', '238']]
+[['4', '40', '175', '0', '0', '175'], ['10', '76', '69', '78', '79', '86', '79', '210', '86', '26', '204', '139']]
+[['4', '40', '177', '0', '0', '33'],  ['10', '76', '69', '78', '79', '86', '79', '210', '230', '26', '207', '104']]
+[['4', '41', '38', '0', '0', '136'],  ['10', '76', '69', '78', '79', '86', '79', '210', '148', '26', '229', '15']]

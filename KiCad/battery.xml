@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/ace/Programming/KiCad/battery/battery.sch</source>
+    <date>Mon 18 May 2020 07:16:57 PM EDT</date>
+    <tool>Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>battery.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R2">
+      <value>9.1K</value>
+      <footprint>Parts:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC31CEC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3K</value>
+      <footprint>Parts:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC30F8F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x07_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x07_Male" description="Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC62E55</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LD1117S33TR_SOT223</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC32906</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATtiny85-20SU</value>
+      <footprint>Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATtiny" part="ATtiny85-20SU" description="20MHz, 8kB Flash, 512B SRAM, 512B EEPROM, debugWIRE, SOIJ-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC2F108</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDB575</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDC6DD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x07_Male">
+      <description>Generic connector, single row, 01x07, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x07_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATtiny" part="ATtiny25V-10SU">
+      <aliases>
+        <alias>ATtiny25-20SU</alias>
+        <alias>ATtiny45V-10SU</alias>
+        <alias>ATtiny45-20SU</alias>
+        <alias>ATtiny85V-10SU</alias>
+        <alias>ATtiny85-20SU</alias>
+      </aliases>
+      <description>10MHz, 2kB Flash, 128B SRAM, 128B EEPROM, debugWIRE, SOIJ-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microcontroller-attiny25-attiny45-attiny85_datasheet.pdf</docs>
+      <footprints>
+        <fp>SOIJ*5.3x5.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATtiny25V-10SU</field>
+        <field name="Footprint">Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET~/PB5" type="BiDi"/>
+        <pin num="2" name="XTAL1/PB3" type="BiDi"/>
+        <pin num="3" name="XTAL2/PB4" type="BiDi"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="AREF/PB0" type="BiDi"/>
+        <pin num="6" name="PB1" type="BiDi"/>
+        <pin num="7" name="PB2" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AP1117-15">
+      <aliases>
+        <alias>AP1117-18</alias>
+        <alias>AP1117-25</alias>
+        <alias>AP1117-33</alias>
+        <alias>AP1117-50</alias>
+        <alias>LD1117S33TR_SOT223</alias>
+        <alias>LD1117S12TR_SOT223</alias>
+        <alias>LD1117S18TR_SOT223</alias>
+        <alias>LD1117S25TR_SOT223</alias>
+        <alias>LD1117S50TR_SOT223</alias>
+        <alias>NCP1117-12_SOT223</alias>
+        <alias>NCP1117-1.5_SOT223</alias>
+        <alias>NCP1117-1.8_SOT223</alias>
+        <alias>NCP1117-2.0_SOT223</alias>
+        <alias>NCP1117-2.5_SOT223</alias>
+        <alias>NCP1117-2.85_SOT223</alias>
+        <alias>NCP1117-3.3_SOT223</alias>
+        <alias>NCP1117-5.0_SOT223</alias>
+        <alias>AMS1117-1.5</alias>
+        <alias>AMS1117-1.8</alias>
+        <alias>AMS1117-2.5</alias>
+        <alias>AMS1117-2.85</alias>
+        <alias>AMS1117-3.3</alias>
+        <alias>AMS1117-5.0</alias>
+      </aliases>
+      <description>1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223</description>
+      <docs>http://www.diodes.com/datasheets/AP1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AP1117-15</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATtiny">
+      <uri>/usr/share/kicad/library/MCU_Microchip_ATtiny.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="T">
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="2" name="VBatSensor">
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="CurrentSensor">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="4" name="SDA">
+      <node ref="J1" pin="4"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="5" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="6" name="SCL">
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="7"/>
+      <node ref="U2" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="8" name="3.3v">
+      <node ref="U2" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="9" name="12v">
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>

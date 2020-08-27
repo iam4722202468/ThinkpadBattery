@@ -1,0 +1,37 @@
+.HEA
+.TIM Mon 18 May 2020 07:16:57 PM EDT
+.APP "Eeschema 5.1.6-c6e7f7d~86~ubuntu18.04.1"
+
+.ADD_COM R2 9.1K  Parts:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+.ADD_COM R1 3K  Parts:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder
+.ADD_COM J1 Conn_01x07_Male  Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical
+.ADD_COM U2 LD1117S33TR_SOT223  Package_TO_SOT_SMD:SOT-223-3_TabPin2
+.ADD_COM U1 ATtiny85-20SU  Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm
+.ADD_COM J2 Conn_01x01_Male  Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork
+.ADD_COM J3 Conn_01x01_Male  Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork
+
+
+.ADD_TER U1.1  T
+.TER     J1.5
+.ADD_TER R1.2  VBatSensor
+.TER     R2.2
+         U1.2
+.ADD_TER J1.4  SDA
+.TER     U1.5
+.ADD_TER U1.7  SCL
+.TER     J1.3
+.ADD_TER J1.6  GND
+.TER     J1.7
+         U2.1
+         J3.1
+         U1.4
+         R1.1
+.ADD_TER U2.2  3.3v
+.TER     U1.8
+.ADD_TER U2.3  12v
+.TER     R2.1
+         J2.1
+         J1.2
+         J1.1
+
+.END
