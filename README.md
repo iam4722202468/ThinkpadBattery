@@ -10,9 +10,9 @@ This is a fully open source T420 laptop battery design. The design uses an attin
 
 ### Configurable Constants
 
-BATTERY_CAPACITY | Your battery capacity in mAH
-V_HIGH | The highest output voltage of your battery, normally 12.6v
-V_LOW | The cutoff for when the battery will stop working, normally around 10.8v
+- BATTERY_CAPACITY | Your battery capacity in mAH
+- V_HIGH | The highest output voltage of your battery, normally 12.6v
+- V_LOW | The cutoff for when the battery will stop working, normally around 10.8v
 
 ### Creating your own
 
