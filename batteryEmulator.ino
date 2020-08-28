@@ -1,4 +1,9 @@
+
 #include <Wire.h>
+
+// #include <stdio.h>
+// #include <SoftwareSerial.h>
+// SoftwareSerial Monitor(5, 4);
 
 #define BATTERY_MODEL "LNV-Version 2"
 #define BATTERY_VENDOR "HACKED"
@@ -491,10 +496,10 @@ int commandCount = 0;
 byte buffGlobal[60];
 
 void setup() {
-  pinMode(3, INPUT);
+  pinMode(PB3, INPUT);
 
-  pinMode(5, OUTPUT);
-  digitalWrite(5, HIGH);
+  pinMode(PB4, OUTPUT);
+  digitalWrite(PB4, LOW);
   
   command = 0;
   

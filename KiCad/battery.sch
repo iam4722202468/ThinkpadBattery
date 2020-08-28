@@ -117,7 +117,7 @@ Text GLabel 2200 1750 0    50   Input ~ 0
 GND
 Text GLabel 3400 1750 2    50   Input ~ 0
 3.3v
-Text GLabel 2700 2350 3    50   Input ~ 0
+Text GLabel 3000 2350 3    50   Input ~ 0
 CurrentSensor
 $Comp
 L MCU_Microchip_ATtiny:ATtiny85-20SU U1
@@ -130,7 +130,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    2800 1750
 	0    1    1    0   
 $EndComp
-Text GLabel 2600 2350 3    50   Input ~ 0
+Text GLabel 2700 2350 3    50   Input ~ 0
 T
 Text GLabel 2900 2350 3    50   Input ~ 0
 SCL

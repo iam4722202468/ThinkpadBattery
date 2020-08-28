@@ -38,38 +38,38 @@ $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5EC353CA
-P 5300 3200
-F 0 "#PWR0101" H 5300 2950 50  0001 C CNN
-F 1 "GND" H 5305 3027 50  0000 C CNN
-F 2 "" H 5300 3200 50  0001 C CNN
-F 3 "" H 5300 3200 50  0001 C CNN
-	1    5300 3200
+P 4450 3250
+F 0 "#PWR0101" H 4450 3000 50  0001 C CNN
+F 1 "GND" H 4455 3077 50  0000 C CNN
+F 2 "" H 4450 3250 50  0001 C CNN
+F 3 "" H 4450 3250 50  0001 C CNN
+	1    4450 3250
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector:Conn_01x07_Male J1
 U 1 1 5EC62E55
-P 3950 3500
-F 0 "J1" V 3877 3478 50  0000 C CNN
-F 1 "Conn_01x07_Male" V 3786 3478 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3950 3500 50  0001 C CNN
-F 3 "~" H 3950 3500 50  0001 C CNN
-	1    3950 3500
+P 3100 3550
+F 0 "J1" V 3027 3528 50  0000 C CNN
+F 1 "Conn_01x07_Male" V 2936 3528 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3100 3550 50  0001 C CNN
+F 3 "~" H 3100 3550 50  0001 C CNN
+	1    3100 3550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3650 3300 1    50   Input ~ 0
+Text GLabel 2800 3350 1    50   Input ~ 0
 12v
-Text GLabel 3750 3300 1    50   Input ~ 0
+Text GLabel 2900 3350 1    50   Input ~ 0
 12v
-Text GLabel 3850 3300 1    50   Input ~ 0
+Text GLabel 3000 3350 1    50   Input ~ 0
 SCL
-Text GLabel 3950 3300 1    50   Input ~ 0
+Text GLabel 3100 3350 1    50   Input ~ 0
 SDA
-Text GLabel 4050 3300 1    50   Input ~ 0
+Text GLabel 3200 3350 1    50   Input ~ 0
 T
-Text GLabel 4150 3300 1    50   Input ~ 0
+Text GLabel 3300 3350 1    50   Input ~ 0
 GND
-Text GLabel 4250 3300 1    50   Input ~ 0
+Text GLabel 3400 3350 1    50   Input ~ 0
 GND
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U2
@@ -85,17 +85,17 @@ $EndComp
 $Comp
 L power:+12V #PWR0102
 U 1 1 5EC34276
-P 4900 3200
-F 0 "#PWR0102" H 4900 3050 50  0001 C CNN
-F 1 "+12V" H 4915 3373 50  0000 C CNN
-F 2 "" H 4900 3200 50  0001 C CNN
-F 3 "" H 4900 3200 50  0001 C CNN
-	1    4900 3200
+P 4050 3250
+F 0 "#PWR0102" H 4050 3100 50  0001 C CNN
+F 1 "+12V" H 4065 3423 50  0000 C CNN
+F 2 "" H 4050 3250 50  0001 C CNN
+F 3 "" H 4050 3250 50  0001 C CNN
+	1    4050 3250
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 3200 2    50   Input ~ 0
+Text GLabel 4050 3250 2    50   Input ~ 0
 12v
-Text GLabel 5300 3200 2    50   Input ~ 0
+Text GLabel 4450 3250 2    50   Input ~ 0
 GND
 Text GLabel 4800 1650 2    50   Input ~ 0
 12v
@@ -130,7 +130,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    2800 1750
 	0    1    1    0   
 $EndComp
-Text GLabel 2600 2350 3    50   Input ~ 0
+Text GLabel 3000 2350 3    50   Input ~ 0
 T
 Text GLabel 2900 2350 3    50   Input ~ 0
 SCL
@@ -139,23 +139,23 @@ SDA
 $Comp
 L Connector:Conn_01x01_Male J2
 U 1 1 5ECDB575
-P 4900 3400
-F 0 "J2" H 5008 3581 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 5008 3490 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4900 3400 50  0001 C CNN
-F 3 "~" H 4900 3400 50  0001 C CNN
-	1    4900 3400
+P 4050 3450
+F 0 "J2" H 4158 3631 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4158 3540 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4050 3450 50  0001 C CNN
+F 3 "~" H 4050 3450 50  0001 C CNN
+	1    4050 3450
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:Conn_01x01_Male J3
 U 1 1 5ECDC6DD
-P 5300 3400
-F 0 "J3" H 5408 3581 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 5408 3490 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 5300 3400 50  0001 C CNN
-F 3 "~" H 5300 3400 50  0001 C CNN
-	1    5300 3400
+P 4450 3450
+F 0 "J3" H 4558 3631 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 4558 3540 50  0000 C CNN
+F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4450 3450 50  0001 C CNN
+F 3 "~" H 4450 3450 50  0001 C CNN
+	1    4450 3450
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
