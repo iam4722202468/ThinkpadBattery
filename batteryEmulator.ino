@@ -1,9 +1,4 @@
-
 #include <Wire.h>
-
-// #include <stdio.h>
-// #include <SoftwareSerial.h>
-// SoftwareSerial Monitor(5, 4);
 
 #define BATTERY_MODEL "LNV-Version 2"
 #define BATTERY_VENDOR "HACKED"
@@ -23,11 +18,6 @@ byte command;
 // 0 - Charging
 // 1 - Battery Powered
 int mode = 1;
-
-struct CommandReply {
-  byte replyTo;
-  byte (*reply)(byte*);
-};
 
 void splitNum(int num, int* upper, int* lower) {
   *lower = (num & 0xff00) >> 8;
@@ -489,9 +479,6 @@ byte (* funMap [])(byte*) = {
   reply0x3E,
   reply0x3F
 };
-  
-CommandReply **commandList;
-int commandCount = 0;
 
 byte buffGlobal[60];
 
@@ -521,9 +508,6 @@ void receiveEvent (uint8_t howMany)
   for (int x = 0; x < howMany-1; x++)
     Wire.read();
 }
-
-// needs byte length
-// 0x20, 0x21, 0x22, 0x23, 0x30, 0x3C, 0x37, 0x2F, 
 
 void requestEvent () {
   int len = funMap[command](buffGlobal);
