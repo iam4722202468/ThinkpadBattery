@@ -33,7 +33,7 @@ Once you have all these parts, assemble the pcb and attach a BMS to your battery
 
 ### Voltage Reading / Remaining battery
 
-Currently remaining battery %'s aren't exact because I'm assuming there is a linear coorelation between voltage and capacity (Which is wrong). I don't plan on fixing this, as the exact % is unimportant to me.
+Currently remaining battery %'s aren't exact because I'm assuming there is a linear coorelation between voltage and capacity (Which is wrong). This is probably fixable using a battery gas gauge, I'll have to investiage more.
 
 
 ## Future Plans
