@@ -43,6 +43,10 @@ Use the ATTinyCore for compiling. Without it, Wire.h won't work.
 
 Currently remaining battery %'s aren't exact because I'm assuming there is a linear coorelation between voltage and capacity (Which is wrong). This is probably fixable using a battery gas gauge, I'll have to investiage more.
 
+### MCU Power Consumption
+
+By design, the MCU will always be on as long as a battery is connected to it. This can cause the battery to slowly run out of power if it isn't connected to a laptop. A potential fix could be to implement a low power mode for the attiny, or have a seperate disconnect switch for the battery power on the battery pack itself.
+
 
 ## Future Plans
 
