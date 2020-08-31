@@ -28,6 +28,10 @@ Parts Needed
 
 Once you have all these parts, assemble the pcb and attach a BMS to your battery pack. Solder the 12v battery output/input to the large pads on the pcb, then program the attiny85 with the included ino file. The output pins at the bottom of the PCB are a 1-1 mapping of the motherboard pin input.
 
+### Debugging
+
+- The laptop won't supply power to the board unless it detects there's a battery attached, meaning if you plug the board in to the battery without having an external battery to power it, it won't work.
+
 ### Libraries
 
 Use the ATTinyCore for compiling. Without it, Wire.h won't work.
