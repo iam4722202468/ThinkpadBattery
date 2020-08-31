@@ -30,7 +30,7 @@ Once you have all these parts, assemble the pcb and attach a BMS to your battery
 
 ### Libraries
 
-Use https://github.com/nadavmatalon/TinyWireS for Wire.h
+Use the ATTinyCore for compiling. Without it, Wire.h won't work.
 
 
 ## Limitations
