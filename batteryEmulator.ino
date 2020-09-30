@@ -6,12 +6,12 @@
 #define BATTERY_VOLTAGE 10800
 #define SERIAL 420
 
-#define V_HIGH 12.0
-#define V_LOW 8.0
+#define V_HIGH 12.6
+#define V_LOW 10.0
 
 // mAh, uses BATTERY_VOLTAGE when calculating Wh
-#define BATTERY_CAPACITY 10000
-#define BATTERY_CAPACITY_DESIGN 10000
+#define BATTERY_CAPACITY 15000
+#define BATTERY_CAPACITY_DESIGN 15000
 
 byte command;
 
@@ -75,7 +75,6 @@ int genCRC(byte* arr, int len, int replyTo)
   for (int x = 0; x < 8; ++x)
     final += (0x01 << x) * CRC[x];
 
-  // Serial.println(final);
   return final;
 }
 
@@ -160,6 +159,7 @@ byte reply0x21(byte *buff) {
   return strlen(battery_model);
 }
 
+// Device chemistry
 byte reply0x22(byte *buff) {
   buff[0] = 76;
   buff[1] = 73;
@@ -169,6 +169,7 @@ byte reply0x22(byte *buff) {
   return 4;
 }
 
+// ?
 byte reply0x35(byte *buff) {
   buff[0] = 64;
   buff[1] = 0;
@@ -176,6 +177,7 @@ byte reply0x35(byte *buff) {
   return 2;
 }
 
+// ?
 byte reply0x37(byte *buff) {
   buff[0] = 4;
   buff[1] = 0;
@@ -189,6 +191,7 @@ byte reply0x37(byte *buff) {
   return 8;
 }
 
+// ?
 byte reply0x2F(byte *buff) {
   buff[0] = 49;
   buff[1] = 90;
@@ -330,9 +333,10 @@ byte reply0x0A(byte *buff) {
   return 2;
 }
 
+// Run time to empty
 byte reply0x11(byte *buff) {
   buff[0] = 60;
-  buff[1] = 0;
+  buff[1] = 0x00;
 
   return 2;
 }
@@ -371,15 +375,16 @@ byte reply0x17(byte *buff) {
 }
 
 byte reply0x0C(byte *buff) {
-  buff[0] = 0;
-  buff[1] = 0;
+  buff[0] = 0x00;
+  buff[1] = 0x00;
 
   return 2;
 }
 
+// Relative state of charge
 byte reply0x0D(byte *buff) {
-  buff[0] = 245;
-  buff[1] = 155;
+  buff[0] = 0x5b;
+  buff[1] = 0x00;
 
   return 2;
 }
@@ -397,6 +402,23 @@ byte reply0x30(byte *buff) {
   buff[9] = 0;
 
   return 10;
+}
+
+byte reply0x23(byte *buff) {
+  buff[0] = 0x42;
+  buff[1] = 0x0a;
+  buff[2] = 0x05;
+  buff[3] = 0x12;
+  buff[4] = 0x86;
+  buff[5] = 0x0f;
+  buff[6] = 0x86;
+  buff[7] = 0x0f;
+  buff[8] = 0x86;
+  buff[9] = 0x0f;
+  buff[10] = 0x86;
+  buff[11] = 0x0f;
+
+  return 12;
 }
 
 byte reply0x3D(byte *buff) {
@@ -449,7 +471,7 @@ byte (* funMap [])(byte*) = {
   reply0x20,
   reply0x21,
   reply0x22,
-  NULL,
+  reply0x23,
   NULL,
   NULL,
   NULL,
@@ -498,15 +520,16 @@ void setup() {
 void loop() {
   unsigned long currentMillis = millis();
   
-  delay(100);
+  delay(1);
 }
 
 void receiveEvent (uint8_t howMany)
 {
   command = Wire.read();
 
-  for (int x = 0; x < howMany-1; x++)
-    Wire.read();
+  for (int x = 0; x < howMany-1; x++) {
+    byte a = Wire.read();
+  }
 }
 
 void requestEvent () {
@@ -514,10 +537,10 @@ void requestEvent () {
 
   if (needsLength(command))
     Wire.write(len);
-      
+  
   for (int y = 0; y < len; ++y) {
     Wire.write(buffGlobal[y]);
   }
-    
+
   Wire.write(genCRC(buffGlobal, len, command));
 }
