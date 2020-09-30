@@ -6,8 +6,8 @@
 #define BATTERY_VOLTAGE 10800
 #define SERIAL 420
 
-#define V_HIGH 12.6
-#define V_LOW 10.6
+#define V_HIGH 12.0
+#define V_LOW 8.0
 
 // mAh, uses BATTERY_VOLTAGE when calculating Wh
 #define BATTERY_CAPACITY 10000
@@ -484,7 +484,7 @@ byte buffGlobal[60];
 
 void setup() {
   pinMode(PB3, INPUT);
-
+  
   pinMode(PB4, OUTPUT);
   digitalWrite(PB4, LOW);
   
