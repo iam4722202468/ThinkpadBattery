@@ -1,5 +1,6 @@
 #include <Wire.h>
 
+// First 4 chars are cut off
 #define BATTERY_MODEL "LNV-Version 2"
 #define BATTERY_VENDOR "HACKED"
 #define CHARGE_VOLTAGE 12600
@@ -307,6 +308,9 @@ byte reply0x0F(byte *buff) {
 
   float voltageIn = analogRead(3) * (3.33 / 1023.0);
   int batteryVoltage = (m*voltageIn + b)*BATTERY_CAPACITY;
+
+  if (batteryVoltage < 0)
+    batteryVoltage = 0;
 
   splitNum(batteryVoltage, &lower, &higher);
   buff[0] = lower;
