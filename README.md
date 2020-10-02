@@ -48,8 +48,11 @@ Currently remaining battery %'s aren't exact because I'm assuming there is a lin
 By design, the MCU will always be on as long as a battery is connected to it. This can cause the battery to slowly run out of power if it isn't connected to a laptop. A potential fix could be to implement a low power mode for the attiny, or have a seperate disconnect switch for the battery power on the battery pack itself.
 
 
-## Future Plans
-
 ### 3D Printable Case
 
-When my current battery becomes unusable, I'm going to create a 3d printable model to house nine 21700 cells that can be attached to the laptop.
+The case for the cells has been completed. The case model and stl files are included in /model
+
+
+## Future Plans
+
+I’m going to make a controller board with a LTC2944 Battery Gas Gauge.
