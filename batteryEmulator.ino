@@ -6,8 +6,11 @@
 #define BATTERY_VOLTAGE 10800
 #define SERIAL 420
 
-#define V_HIGH 12.6
-#define V_LOW 10.0
+#define V_HIGH 12.1
+
+// 20% above where the battery actually dies. This is because on load my T420 can pull the voltage down 20%.
+// If you're using a non-modified T420 you can probably use 10.2-10.3 here and get 10% more battery life.
+#define V_LOW 10.52
 
 // mAh, uses BATTERY_VOLTAGE when calculating Wh
 #define BATTERY_CAPACITY 15000
@@ -75,6 +78,7 @@ int genCRC(byte* arr, int len, int replyTo)
   for (int x = 0; x < 8; ++x)
     final += (0x01 << x) * CRC[x];
 
+  // Serial.println(final);
   return final;
 }
 
@@ -526,6 +530,7 @@ void loop() {
 void receiveEvent (uint8_t howMany)
 {
   command = Wire.read();
+  
 
   for (int x = 0; x < howMany-1; x++) {
     byte a = Wire.read();
