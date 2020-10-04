@@ -1,6 +1,5 @@
 #include <Wire.h>
 
-// First 4 chars are cut off
 #define BATTERY_MODEL "LNV-Version 2"
 #define BATTERY_VENDOR "HACKED"
 #define CHARGE_VOLTAGE 12600
@@ -153,6 +152,8 @@ byte reply0x03(byte *buff) {
 
   return 2;
 }
+
+int state = 0;
 
 byte reply0x21(byte *buff) {
   char *battery_model = BATTERY_MODEL;
@@ -511,12 +512,11 @@ byte (* funMap [])(byte*) = {
 };
 
 byte buffGlobal[60];
+int analogPin = A2;
 
 void setup() {
+  pinMode(analogPin, OUTPUT);
   pinMode(PB3, INPUT);
-  
-  pinMode(PB4, OUTPUT);
-  digitalWrite(PB4, LOW);
   
   command = 0;
   
@@ -525,16 +525,64 @@ void setup() {
   Wire.onRequest (requestEvent);
 }
 
+int tries = 0;
+byte lastCommand = 0;
+int ignoring = 0;
+unsigned long lastCurrentMillis = 0;
+unsigned long currentMillis = 0;
+
+
 void loop() {
-  unsigned long currentMillis = millis();
-  
-  delay(1);
+  currentMillis = millis();
+
+  if (tries > 0) {
+    if (tries % 2 == 0) {
+      delay(2000);
+      pinMode(analogPin, INPUT);
+    } else {
+      delay(2000);
+      pinMode(analogPin, OUTPUT);
+      analogWrite(analogPin, 0);
+    }
+    tries--;
+    if (tries == 0) {
+      ignoring = 1;
+    }
+  }
 }
+
+// int counter = 0;
 
 void receiveEvent (uint8_t howMany)
 {
+  lastCommand = command;
+  // counter += 1;
   command = Wire.read();
   
+  if (command == 0 && lastCommand == 13) {
+    Serial.println(currentMillis - lastCurrentMillis);
+    
+    if ((currentMillis - lastCurrentMillis) < 70) {
+      // Serial.println("Irregular");
+      tries = 5;
+    }
+
+    lastCurrentMillis = currentMillis;
+  }
+  
+  if (command == 0 && tries == 0 && lastCommand == 60 && ignoring == 0) {
+    tries = 5;
+    // Serial.println("starting retries");
+  }
+  
+  if (command == 0 && tries == 0 && ignoring == 1) {
+    ignoring = 0;
+    // Serial.println("ignoring off");
+  }
+
+  /*if (command == 13 && lastCommand == 12) {
+    Serial.println();
+  }*/
 
   for (int x = 0; x < howMany-1; x++) {
     byte a = Wire.read();
