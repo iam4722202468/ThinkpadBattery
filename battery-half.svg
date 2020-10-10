@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="512px"
+   height="512px"
+   viewBox="0 0 512 512"
+   enable-background="new 0 0 512 512"
+   xml:space="preserve"
+   sodipodi:docname="battery-half.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs13" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="2560"
+   inkscape:window-height="1412"
+   id="namedview11"
+   showgrid="false"
+   inkscape:zoom="1.84375"
+   inkscape:cx="206.68701"
+   inkscape:cy="205.69112"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<path
+   stroke-miterlimit="10"
+   d="m 273.4655,279.80685 c 0,10.19028 -8.26067,18.45095 -18.45095,18.45095 h -93.48713 c -10.19028,0 -18.45155,-8.26067 -18.45155,-18.45095 V 73.151652 c 0,-10.190875 8.26127,-18.451547 18.45155,-18.451547 h 93.48653 c 10.19028,0 18.45096,8.260672 18.45096,18.451547 V 279.80685 Z"
+   id="path2"
+   inkscape:connector-curvature="0"
+   style="fill:none;stroke:#000000;stroke-width:9.21704388;stroke-miterlimit:10" />
+<rect
+   x="178.64505"
+   y="30.999001"
+   width="59.252464"
+   height="9.2174597"
+   id="rect4"
+   style="stroke-width:0.59390843" />
+<polygon
+   points="334.5,276.314 334.5,171.792 176.5,263.013 176.5,367.535 "
+   id="polygon6"
+   transform="matrix(0.59390845,0,0,0.59390845,56.230421,12.588432)" />
+<path
+   d="m 161.05526,240.47229 v 31.95109 c 0,4.91993 3.98869,8.90862 8.90863,8.90862 h 76.02028 c 4.91994,0 8.90863,-3.98869 8.90863,-8.90862 v -86.12861 z"
+   id="path8"
+   inkscape:connector-curvature="0"
+   style="stroke-width:0.59390843" />
+</svg>

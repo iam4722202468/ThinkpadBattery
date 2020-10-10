@@ -18,8 +18,8 @@ L Device:R R2
 U 1 1 5EC31CEC
 P 4600 2500
 F 0 "R2" H 4670 2546 50  0000 L CNN
-F 1 "9.1K" H 4670 2455 50  0000 L CNN
-F 2 "Parts:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4530 2500 50  0001 C CNN
+F 1 "10K" H 4670 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4530 2500 50  0001 C CNN
 F 3 "~" H 4600 2500 50  0001 C CNN
 	1    4600 2500
 	1    0    0    -1  
@@ -29,47 +29,15 @@ L Device:R R1
 U 1 1 5EC30F8F
 P 4300 2500
 F 0 "R1" H 4370 2546 50  0000 L CNN
-F 1 "3K" H 4370 2455 50  0000 L CNN
-F 2 "Parts:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 4230 2500 50  0001 C CNN
+F 1 "3.3K" H 4370 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4230 2500 50  0001 C CNN
 F 3 "~" H 4300 2500 50  0001 C CNN
 	1    4300 2500
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5EC353CA
-P 4450 3250
-F 0 "#PWR0101" H 4450 3000 50  0001 C CNN
-F 1 "GND" H 4455 3077 50  0000 C CNN
-F 2 "" H 4450 3250 50  0001 C CNN
-F 3 "" H 4450 3250 50  0001 C CNN
-	1    4450 3250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x07_Male J1
-U 1 1 5EC62E55
-P 3100 3550
-F 0 "J1" V 3027 3528 50  0000 C CNN
-F 1 "Conn_01x07_Male" V 2936 3528 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 3100 3550 50  0001 C CNN
-F 3 "~" H 3100 3550 50  0001 C CNN
-	1    3100 3550
-	0    -1   -1   0   
-$EndComp
-Text GLabel 2800 3350 1    50   Input ~ 0
+Text GLabel 3900 3450 1    50   Input ~ 0
 12v
-Text GLabel 2900 3350 1    50   Input ~ 0
-12v
-Text GLabel 3000 3350 1    50   Input ~ 0
-SCL
-Text GLabel 3100 3350 1    50   Input ~ 0
-SDA
-Text GLabel 3200 3350 1    50   Input ~ 0
-T
-Text GLabel 3300 3350 1    50   Input ~ 0
-GND
-Text GLabel 3400 3350 1    50   Input ~ 0
+Text GLabel 4400 3450 1    50   Input ~ 0
 GND
 $Comp
 L Regulator_Linear:LD1117S33TR_SOT223 U2
@@ -82,21 +50,6 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    4500 1650
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:+12V #PWR0102
-U 1 1 5EC34276
-P 4050 3250
-F 0 "#PWR0102" H 4050 3100 50  0001 C CNN
-F 1 "+12V" H 4065 3423 50  0000 C CNN
-F 2 "" H 4050 3250 50  0001 C CNN
-F 3 "" H 4050 3250 50  0001 C CNN
-	1    4050 3250
-	1    0    0    -1  
-$EndComp
-Text GLabel 4050 3250 2    50   Input ~ 0
-12v
-Text GLabel 4450 3250 2    50   Input ~ 0
-GND
 Text GLabel 4800 1650 2    50   Input ~ 0
 12v
 Text GLabel 4200 1650 0    50   Input ~ 0
@@ -117,7 +70,7 @@ Text GLabel 2200 1750 0    50   Input ~ 0
 GND
 Text GLabel 3400 1750 2    50   Input ~ 0
 3.3v
-Text GLabel 2700 2350 3    50   Input ~ 0
+Text GLabel 3000 2350 3    50   Input ~ 0
 CurrentSensor
 $Comp
 L MCU_Microchip_ATtiny:ATtiny85-20SU U1
@@ -130,32 +83,106 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/atmel-2586-avr-8-bit-microc
 	1    2800 1750
 	0    1    1    0   
 $EndComp
-Text GLabel 3000 2350 3    50   Input ~ 0
-T
+Text GLabel 2700 2350 3    50   Input ~ 0
+T_C
 Text GLabel 2900 2350 3    50   Input ~ 0
 SCL
 Text GLabel 3100 2350 3    50   Input ~ 0
 SDA
 $Comp
-L Connector:Conn_01x01_Male J2
-U 1 1 5ECDB575
-P 4050 3450
-F 0 "J2" H 4158 3631 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 4158 3540 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4050 3450 50  0001 C CNN
-F 3 "~" H 4050 3450 50  0001 C CNN
-	1    4050 3450
-	0    -1   -1   0   
+L Device:R R4
+U 1 1 5F803F9D
+P 5300 2500
+F 0 "R4" H 5370 2546 50  0000 L CNN
+F 1 "10k" H 5370 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5230 2500 50  0001 C CNN
+F 3 "~" H 5300 2500 50  0001 C CNN
+	1    5300 2500
+	1    0    0    -1  
 $EndComp
+Text GLabel 2600 2350 3    50   Input ~ 0
+R
+Text GLabel 5300 2650 3    50   Input ~ 0
+R
+Text GLabel 5300 2350 1    50   Input ~ 0
+3.3v
 $Comp
-L Connector:Conn_01x01_Male J3
-U 1 1 5ECDC6DD
-P 4450 3450
-F 0 "J3" H 4558 3631 50  0000 C CNN
-F 1 "Conn_01x01_Male" H 4558 3540 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork" H 4450 3450 50  0001 C CNN
-F 3 "~" H 4450 3450 50  0001 C CNN
-	1    4450 3450
+L Device:R C1
+U 1 1 5F8051D0
+P 3700 2250
+F 0 "C1" H 3770 2296 50  0000 L CNN
+F 1 "22uF" H 3770 2205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 3630 2250 50  0001 C CNN
+F 3 "~" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 3700 2100 1    50   Input ~ 0
+3.3v
+Text GLabel 3700 2400 3    50   Input ~ 0
+GND
+Text GLabel 4200 3450 1    50   Input ~ 0
+T
+$Comp
+L Device:R R3
+U 1 1 5F813E79
+P 4950 2950
+F 0 "R3" H 5020 2996 50  0000 L CNN
+F 1 "10k" H 5020 2905 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4880 2950 50  0001 C CNN
+F 3 "~" H 4950 2950 50  0001 C CNN
+	1    4950 2950
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 3100 3    50   Input ~ 0
+T
+Text GLabel 4950 2800 1    50   Input ~ 0
+T_C
+$Comp
+L Connector:Conn_01x06_Male J1
+U 1 1 5F8168A9
+P 4100 3650
+F 0 "J1" V 4254 3262 50  0000 R CNN
+F 1 "Conn_01x06_Male" V 4163 3262 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 4100 3650 50  0001 C CNN
+F 3 "~" H 4100 3650 50  0001 C CNN
+	1    4100 3650
 	0    -1   -1   0   
 $EndComp
+Text GLabel 4300 3450 1    50   Input ~ 0
+CurrentSensor
+Text GLabel 4100 3450 1    50   Input ~ 0
+SCL
+Text GLabel 4000 3450 1    50   Input ~ 0
+SDA
+$Comp
+L Device:R C2
+U 1 1 5F823DED
+P 5500 1650
+F 0 "C2" H 5570 1696 50  0000 L CNN
+F 1 "22uF" H 5570 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 5430 1650 50  0001 C CNN
+F 3 "~" H 5500 1650 50  0001 C CNN
+	1    5500 1650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 1500 1    50   Input ~ 0
+12v
+Text GLabel 5500 1800 3    50   Input ~ 0
+GND
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5F81605B
+P 3000 3700
+F 0 "J?" V 3154 3512 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 3063 3512 50  0000 R CNN
+F 2 "" H 3000 3700 50  0001 C CNN
+F 3 "~" H 3000 3700 50  0001 C CNN
+	1    3000 3700
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3000 3500 1    50   Input ~ 0
+3.3v
+Text GLabel 3100 3500 1    50   Input ~ 0
+GND
 $EndSCHEMATC
