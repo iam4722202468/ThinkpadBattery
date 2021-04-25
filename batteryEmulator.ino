@@ -89,6 +89,24 @@ byte reply0x1A(byte *buff) {
   return 1;
 }
 
+byte reply0x01(byte *buff) {
+  buff[0] = 44;
+  buff[1] = 1;
+  return 2;
+}
+
+byte reply0x02(byte *buff) {
+  buff[0] = 30;
+  buff[1] = 0;
+  return 2;
+}
+
+byte reply0x04(byte *buff) {
+  buff[0] = 0;
+  buff[1] = 0;
+  return 2;
+}
+
 byte reply0x00(byte *buff) {
   buff[0] = 24;
   buff[1] = 0;
@@ -287,8 +305,34 @@ byte reply0x3B(byte *buff) {
 }
 
 byte reply0x09(byte *buff) {
-  buff[0] = 79;
-  buff[1] = 48;
+  //buff[0] = 79;
+  //buff[1] = 48;
+
+ int lower, higher;
+
+  float r1 = 9.89;
+  float r2 = 3.39;
+
+  //float sensorLow = V_LOW * (r2/(r1+r2));
+  //float sensorHigh = V_HIGH * (r2/(r1+r2));
+
+  // Assume linear voltage -> battery capacity coorelation (this isn't perfect)
+  //float m = 1/(sensorHigh - sensorLow);
+  //float b = -sensorLow*m;
+
+  float voltageIn = analogRead(3) * (3.33 / 1024.0);
+  float vin = voltageIn / (r2/(r1+r2)); 
+  int Vinoff = vin * 1000;
+  //int batteryVoltage = (m*voltageIn + b)*BATTERY_CAPACITY;
+
+  if (vin < 0)
+    vin = 0;
+
+  splitNum(Vinoff, &lower, &higher);
+  buff[0] = lower;
+  buff[1] = higher;
+
+
 
   return 2;
 }
@@ -296,8 +340,8 @@ byte reply0x09(byte *buff) {
 byte reply0x0F(byte *buff) {
   int lower, higher;
 
-  float r1 = 9.1;
-  float r2 = 3.0;
+  float r1 = 9.89;
+  float r2 = 3.39;
 
   float sensorLow = V_LOW * (r2/(r1+r2));
   float sensorHigh = V_HIGH * (r2/(r1+r2));
@@ -306,7 +350,7 @@ byte reply0x0F(byte *buff) {
   float m = 1/(sensorHigh - sensorLow);
   float b = -sensorLow*m;
 
-  float voltageIn = analogRead(3) * (3.33 / 1023.0);
+  float voltageIn = analogRead(3) * (3.33 / 1024.0);
   int batteryVoltage = (m*voltageIn + b)*BATTERY_CAPACITY;
 
   if (batteryVoltage < 0)
@@ -445,10 +489,10 @@ byte reply0x06(byte *buff) {
 
 byte (* funMap [])(byte*) = {
   reply0x00,
-  NULL,
-  NULL,
+  reply0x01,
+  reply0x02,
   reply0x03,
-  NULL,
+  reply0x04,
   NULL,
   reply0x06,
   NULL,
