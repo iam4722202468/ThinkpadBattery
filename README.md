@@ -1,12 +1,11 @@
+All credits for this project are for  iam4722202468, I just added R50 support.
+
 # ThinkpadBattery
-Open source Thinkpad T420 battery design
-
-http://beta.aceparent.me/#/battery
-
+Open source Thinkpad T420; R50 battery design
 
 ## What is this?
 
-This is a fully open source T420 laptop battery design. The design uses an attiny85, which can reply to the T420 motherboard's SMBUS requests.
+This is a fully open source T420 and R50 laptop battery design. The design uses an attiny85, which can reply to the T420 motherboard's SMBUS requests.
 
 ## Setup
 
@@ -19,9 +18,9 @@ This is a fully open source T420 laptop battery design. The design uses an attin
 ### Creating your own
 
 Parts Needed
-- Arduino Uno (for programming the attiny85)
+- Arduino Uno/Mega  (for programming the attiny85, Mega needs different pin assignment)
 - 12v Lithium-Ion battery pack
-- 3S Lithium-Ion BMS
+- 3S Lithium-Ion BMS (it might be possible to use the existing bms if specification is available but communication needs to be implemented)
 - Components from schematic
 - PCB from schematic
 
@@ -48,11 +47,11 @@ Currently remaining battery %'s aren't exact because I'm assuming there is a lin
 By design, the MCU will always be on as long as a battery is connected to it. This can cause the battery to slowly run out of power if it isn't connected to a laptop. A potential fix could be to implement a low power mode for the attiny, or have a seperate disconnect switch for the battery power on the battery pack itself.
 
 
-### 3D Printable Case
+### 3D Printable Case for T420 only
 
 The case for the cells has been completed. The case model and stl files are included in /model
 
 
 ## Future Plans
 
-I’m going to make a controller board with a LTC2944 Battery Gas Gauge.
+Design a board for R50 and maybe a table based charge 
