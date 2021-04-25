@@ -54,4 +54,4 @@ The case for the cells has been completed. The case model and stl files are incl
 
 ## Future Plans
 
-Design a board for R50 and maybe a table based charge 
+Find a bms that would fit, or try to talk with bq29312pw that was in the original pack
