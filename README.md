@@ -53,8 +53,11 @@ The case for the cells has been completed. The case model and stl files are incl
 ## Future Plans
 
 iam4722202468 - Design and manufacture a PCB with current,voltage and battery capacity measuring capabilities, an easily programmable microcontroller, and a 3s balanced charger
+
 pj1976 - Find a bms that would fit, or try to talk with bq29312pw that was in the original pack
 
 ## Credits
+
 iam4722202468 - Initial work, T420 9 cell model
+
 pj1976 - Added support for R50
