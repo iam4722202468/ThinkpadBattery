@@ -1,11 +1,9 @@
-All credits for this project are for  iam4722202468, I just added R50 support.
-
 # ThinkpadBattery
-Open source Thinkpad T420; R50 battery design
+Open source Thinkpad battery design
 
 ## What is this?
 
-This is a fully open source T420 and R50 laptop battery design. The design uses an attiny85, which can reply to the T420 motherboard's SMBUS requests.
+This is a fully open source laptop battery design. The design uses an attiny85, which can reply to the T420 motherboard's SMBUS requests.
 
 ## Setup
 
@@ -54,4 +52,9 @@ The case for the cells has been completed. The case model and stl files are incl
 
 ## Future Plans
 
-Find a bms that would fit, or try to talk with bq29312pw that was in the original pack
+iam4722202468 - Design and manufacture a PCB with current,voltage and battery capacity measuring capabilities, an easily programmable microcontroller, and a 3s balanced charger
+pj1976 - Find a bms that would fit, or try to talk with bq29312pw that was in the original pack
+
+## Credits
+iam4722202468 - Initial work, T420 9 cell model
+pj1976 - Added support for R50
