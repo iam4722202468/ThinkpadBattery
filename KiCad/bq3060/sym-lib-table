@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name bq3060)(type Legacy)(uri ${KIPRJMOD}/bq3060.lib)(options "")(descr ""))
+)
