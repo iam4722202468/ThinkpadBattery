@@ -1532,4 +1532,36 @@ $EndComp
 Connection ~ 5000 7000
 Wire Wire Line
 	5050 7000 5000 7000
+Text GLabel 850  1400 2    50   Input ~ 0
+4P
+Text GLabel 850  1500 2    50   Input ~ 0
+3P
+Text GLabel 850  1600 2    50   Input ~ 0
+2P
+Text GLabel 850  1850 2    50   Input ~ 0
+1P
+Text GLabel 850  1950 2    50   Input ~ 0
+1N
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 60B8AEED
+P 650 1500
+F 0 "J4" H 758 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 758 1690 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x03_P5.715mm_Drill2mm" H 650 1500 50  0001 C CNN
+F 3 "~" H 650 1500 50  0001 C CNN
+	1    650  1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 60B8B6CD
+P 650 1850
+F 0 "J5" H 758 2031 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 758 1940 50  0000 C CNN
+F 2 "Connector_Wire:SolderWirePad_1x02_P7.62mm_Drill2mm" H 650 1850 50  0001 C CNN
+F 3 "~" H 650 1850 50  0001 C CNN
+	1    650  1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
