@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ace/Programming/Hardware/ThinkpadBattery/KiCad/bq3060/bq3060.sch)
-    (date "Fri 21 May 2021 07:42:27 PM")
+    (date "Sun 23 May 2021 08:55:26 PM")
     (tool "Eeschema 5.1.5+dfsg1-2build2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
