@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ace/Programming/Hardware/ThinkpadBattery/KiCad/bq3060/bq3060.sch)
-    (date "Sun 23 May 2021 08:55:26 PM")
+    (date "Thu 24 Jun 2021 08:53:27 PM")
     (tool "Eeschema 5.1.5+dfsg1-2build2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -274,7 +274,7 @@
       (tstamp 60AE7CC7))
     (comp (ref Q3)
       (value NDS351AN)
-      (footprint Package_TO_SOT_THT:TO-92_Inline)
+      (footprint Package_TO_SOT_SMD:SOT-23)
       (datasheet https://www.fairchildsemi.com/datasheets/2N/2N7000.pdf)
       (libsource (lib Transistor_FET) (part 2N7000) (description "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"))
       (sheetpath (names /) (tstamps /))
