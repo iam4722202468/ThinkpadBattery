@@ -55,6 +55,7 @@ void iterateCRC(bool CRC[8], int currentByte) {
   }
 }
 
+// CRC function, used as a checksum for the data send to the laptop
 int genCRC(byte* arr, int len, int replyTo)
 {
   bool CRC[8];
@@ -308,22 +309,16 @@ byte reply0x09(byte *buff) {
   //buff[0] = 79;
   //buff[1] = 48;
 
- int lower, higher;
+  int lower, higher;
 
+  // Values of the resistors used in the voltage divider
   float r1 = 9.89;
   float r2 = 3.39;
 
-  //float sensorLow = V_LOW * (r2/(r1+r2));
-  //float sensorHigh = V_HIGH * (r2/(r1+r2));
-
-  // Assume linear voltage -> battery capacity coorelation (this isn't perfect)
-  //float m = 1/(sensorHigh - sensorLow);
-  //float b = -sensorLow*m;
-
+  // Read the voltage divider input on analog pin that has a range of 3.33v to 0v, and output a number from 0 to 1024
   float voltageIn = analogRead(3) * (3.33 / 1024.0);
   float vin = voltageIn / (r2/(r1+r2)); 
   int Vinoff = vin * 1000;
-  //int batteryVoltage = (m*voltageIn + b)*BATTERY_CAPACITY;
 
   if (vin < 0)
     vin = 0;
@@ -347,6 +342,7 @@ byte reply0x0F(byte *buff) {
   float sensorHigh = V_HIGH * (r2/(r1+r2));
 
   // Assume linear voltage -> battery capacity coorelation (this isn't perfect)
+  // y = mx + b
   float m = 1/(sensorHigh - sensorLow);
   float b = -sensorLow*m;
 
@@ -487,6 +483,12 @@ byte reply0x06(byte *buff) {
   return 2;
 }
 
+// Store a mapping of bytes to functions
+// index 0 is used to reply to byte command 0, index 1 is used to reply to byte command 1, etc.
+// NULL values are functions that are commands that are not used or have not been implemented
+// See https://www.nxp.com/docs/en/application-note/AN4471.pdf for more information about what each command does
+
+// Each of these functions will write to the global buffer and return the amount of bytes written
 byte (* funMap [])(byte*) = {
   reply0x00,
   reply0x01,
@@ -554,6 +556,7 @@ byte (* funMap [])(byte*) = {
   reply0x3F
 };
 
+// Used to store replies to commands
 byte buffGlobal[60];
 
 void setup() {
@@ -575,25 +578,34 @@ void loop() {
   delay(1);
 }
 
+// Read command send from laptop
 void receiveEvent (uint8_t howMany)
 {
+  // Set command
   command = Wire.read();
   
-
+  // Ignore bytes other than the first one. No commands currently require more than one byte
   for (int x = 0; x < howMany-1; x++) {
     byte a = Wire.read();
   }
 }
 
+// Write information and send it to laptop
 void requestEvent () {
+  // Look up the command and pass the global buffer
+  // This will call the correct function, based on the command, and return the amount of bytes written
   int len = funMap[command](buffGlobal);
 
+  // Some commands require their length to be added. See needsLength function for a list of these commands
+  // This length command is sent first, before all the data
   if (needsLength(command))
     Wire.write(len);
   
+  // Write all bytes from the buffer
   for (int y = 0; y < len; ++y) {
     Wire.write(buffGlobal[y]);
   }
 
+  // Generate and write the CRC. This is a checksum used to ensure communication works as intended
   Wire.write(genCRC(buffGlobal, len, command));
 }
