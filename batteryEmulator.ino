@@ -84,6 +84,9 @@ int genCRC(byte* arr, int len, int replyTo)
   return final;
 }
 
+// Function signature for callbacks
+typedef byte (*smbusCallback)(byte*);
+
 // Write to buff, return length
 byte reply0x1A(byte *buff) {
   buff[0] = 49;
@@ -592,9 +595,15 @@ void receiveEvent (uint8_t howMany)
 
 // Write information and send it to laptop
 void requestEvent () {
-  // Look up the command and pass the global buffer
-  // This will call the correct function, based on the command, and return the amount of bytes written
-  int len = funMap[command](buffGlobal);
+  // Look up the callback associated with the current command, NULL if no match is found
+  smbusCallback callback = funMap[command];
+  
+  // No matching callback was found, return without further processing
+  if (callback == null)
+    return;
+ 
+  // Call matching callback, which writes to the global buffer and returns the amount of bytes written
+  int len = callback(buffGlobal);
 
   // Some commands require their length to be added. See needsLength function for a list of these commands
   // This length command is sent first, before all the data
