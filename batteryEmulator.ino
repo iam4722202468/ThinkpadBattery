@@ -85,7 +85,7 @@ int genCRC(byte* arr, int len, int replyTo)
 }
 
 // Write to buff, return length
-byte reply0x1A(byte *buff) {
+byte reply0x1a(byte *buff) {
   buff[0] = 49;
   return 1;
 }
@@ -134,13 +134,13 @@ byte reply0x19(byte *buff) {
   return 2;
 }
 
-byte reply0x1B(byte *buff) {
+byte reply0x1b(byte *buff) {
   buff[0] = 156;
   buff[1] = 61;
   return 2;
 }
 
-byte reply0x1C(byte *buff) {
+byte reply0x1c(byte *buff) {
   int lower, higher;
   
   splitNum(SERIAL, &lower, &higher);
@@ -216,7 +216,7 @@ byte reply0x37(byte *buff) {
 }
 
 // ?
-byte reply0x2F(byte *buff) {
+byte reply0x2f(byte *buff) {
   buff[0] = 49;
   buff[1] = 90;
   buff[2] = 74;
@@ -232,7 +232,7 @@ byte reply0x2F(byte *buff) {
   return 11;
 }
 
-byte reply0x3C(byte *buff) {
+byte reply0x3c(byte *buff) {
   buff[0] = 76;
   buff[1] = 101;
   buff[2] = 110;
@@ -253,14 +253,14 @@ byte reply0x3C(byte *buff) {
   return 16;
 }
 
-byte reply0x3E(byte *buff) {
+byte reply0x3e(byte *buff) {
   buff[0] = 1;
   buff[1] = 0;
 
   return 2;
 }
 
-byte reply0x3F(byte *buff) {
+byte reply0x3f(byte *buff) {
   buff[0] = 47;
   buff[1] = 79;
 
@@ -298,7 +298,7 @@ byte reply0x08(byte *buff) {
   return 2;
 }
 
-byte reply0x3B(byte *buff) {
+byte reply0x3b(byte *buff) {
   buff[0] = 135;
   buff[1] = 11;
 
@@ -332,7 +332,7 @@ byte reply0x09(byte *buff) {
   return 2;
 }
 
-byte reply0x0F(byte *buff) {
+byte reply0x0f(byte *buff) {
   int lower, higher;
 
   float r1 = 9.89;
@@ -369,7 +369,7 @@ byte reply0x10(byte *buff) {
   return 2;
 }
 
-byte reply0x0A(byte *buff) {
+byte reply0x0a(byte *buff) {
   if (mode == 0) {
     buff[0] = 0;
     buff[1] = 0;
@@ -389,7 +389,7 @@ byte reply0x11(byte *buff) {
   return 2;
 }
 
-byte reply0x0B(byte *buff) {
+byte reply0x0b(byte *buff) {
   if (mode == 0) {
     buff[0] = 0;
     buff[1] = 0;
@@ -422,7 +422,7 @@ byte reply0x17(byte *buff) {
   return 2;
 }
 
-byte reply0x0C(byte *buff) {
+byte reply0x0c(byte *buff) {
   buff[0] = 0x00;
   buff[1] = 0x00;
 
@@ -430,7 +430,7 @@ byte reply0x0C(byte *buff) {
 }
 
 // Relative state of charge
-byte reply0x0D(byte *buff) {
+byte reply0x0d(byte *buff) {
   buff[0] = 0x5b;
   buff[1] = 0x00;
 
@@ -469,7 +469,7 @@ byte reply0x23(byte *buff) {
   return 12;
 }
 
-byte reply0x3D(byte *buff) {
+byte reply0x3d(byte *buff) {
   buff[0] = 136;
   buff[1] = 11;
 
@@ -500,12 +500,12 @@ byte (* funMap [])(byte*) = {
   NULL,
   reply0x08,
   reply0x09,
-  reply0x0A,
-  reply0x0B,
-  reply0x0C,
-  reply0x0D,
+  reply0x0a,
+  reply0x0b,
+  reply0x0c,
+  reply0x0d,
   NULL,
-  reply0x0F,
+  reply0x0f,
   reply0x10,
   reply0x11,
   reply0x12,
@@ -516,9 +516,9 @@ byte (* funMap [])(byte*) = {
   reply0x17,
   reply0x18,
   reply0x19,
-  reply0x1A,
-  reply0x1B,
-  reply0x1C,
+  reply0x1a,
+  reply0x1b,
+  reply0x1c,
   NULL,
   NULL,
   NULL,
@@ -537,7 +537,7 @@ byte (* funMap [])(byte*) = {
   NULL,
   NULL,
   NULL,
-  reply0x2F,
+  reply0x2f,
   reply0x30,
   NULL,
   NULL,
@@ -549,11 +549,11 @@ byte (* funMap [])(byte*) = {
   NULL,
   NULL,
   NULL,
-  reply0x3B,
-  reply0x3C,
-  reply0x3D,
-  reply0x3E,
-  reply0x3F
+  reply0x3b,
+  reply0x3c,
+  reply0x3d,
+  reply0x3e,
+  reply0x3f
 };
 
 // Used to store replies to commands
