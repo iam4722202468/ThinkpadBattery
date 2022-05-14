@@ -85,12 +85,13 @@ int genCRC(byte* arr, int len, int replyTo)
 }
 
 // Function signature for callbacks
+// Takes byte array for a buffer and returns the number of bytes written to it
 typedef byte (*smbusCallback)(byte*);
 
-// Write to buff, return length
-byte reply0x1A(byte *buff) {
-  buff[0] = 49;
-  return 1;
+byte reply0x00(byte *buff) {
+  buff[0] = 24;
+  buff[1] = 0;
+  return 2;
 }
 
 byte reply0x01(byte *buff) {
@@ -105,70 +106,6 @@ byte reply0x02(byte *buff) {
   return 2;
 }
 
-byte reply0x04(byte *buff) {
-  buff[0] = 0;
-  buff[1] = 0;
-  return 2;
-}
-
-byte reply0x00(byte *buff) {
-  buff[0] = 24;
-  buff[1] = 0;
-  return 2;
-}
-
-byte reply0x18(byte *buff) {
-  int lower, higher;
-  
-  splitNum(BATTERY_CAPACITY_DESIGN, &lower, &higher);
-  buff[0] = lower;
-  buff[1] = higher;
-  
-  return 2;
-}
-
-byte reply0x19(byte *buff) {
-  int lower, higher;
-  
-  splitNum(BATTERY_VOLTAGE, &lower, &higher);
-  buff[0] = lower;
-  buff[1] = higher;
-  
-  return 2;
-}
-
-byte reply0x1B(byte *buff) {
-  buff[0] = 156;
-  buff[1] = 61;
-  return 2;
-}
-
-byte reply0x1C(byte *buff) {
-  int lower, higher;
-  
-  splitNum(SERIAL, &lower, &higher);
-  buff[0] = lower;
-  buff[1] = higher;
-  
-  return 2;
-}
-
-byte reply0x20(byte *buff) {
-  char *battery_vendor = BATTERY_VENDOR;
-
-  for (int x = 0; x < strlen(battery_vendor); ++x) {
-    buff[x] = battery_vendor[x];
-  }
-
-  int end = strlen(battery_vendor);
-  
-  buff[end + 0] = 0;
-  buff[end + 1] = 49;
-  buff[end + 2] = 49;
-
-  return strlen(battery_vendor) + 3;
-}
-
 byte reply0x03(byte *buff) {
   buff[0] = 132;
   buff[1] = 128;
@@ -176,123 +113,22 @@ byte reply0x03(byte *buff) {
   return 2;
 }
 
-byte reply0x21(byte *buff) {
-  char *battery_model = BATTERY_MODEL;
-
-  for (int x = 0; x < strlen(battery_model); ++x) {
-    buff[x] = battery_model[x];
-  }
-
-  return strlen(battery_model);
+byte reply0x04(byte *buff) {
+  buff[0] = 0;
+  buff[1] = 0;
+  return 2;
 }
 
-// Device chemistry
-byte reply0x22(byte *buff) {
-  buff[0] = 76;
-  buff[1] = 73;
-  buff[2] = 79;
-  buff[3] = 78;
+// 0x05
 
-  return 4;
-}
-
-// ?
-byte reply0x35(byte *buff) {
-  buff[0] = 64;
+byte reply0x06(byte *buff) {
+  buff[0] = 100;
   buff[1] = 0;
 
   return 2;
 }
 
-// ?
-byte reply0x37(byte *buff) {
-  buff[0] = 4;
-  buff[1] = 0;
-  buff[2] = 61;
-  buff[3] = 94;
-  buff[4] = 97;
-  buff[5] = 1;
-  buff[6] = 64;
-  buff[7] = 1;
-
-  return 8;
-}
-
-// ?
-byte reply0x2F(byte *buff) {
-  buff[0] = 49;
-  buff[1] = 90;
-  buff[2] = 74;
-  buff[3] = 51;
-  buff[4] = 74;
-  buff[5] = 49;
-  buff[6] = 49;
-  buff[7] = 77;
-  buff[8] = 49;
-  buff[9] = 50;
-  buff[10] = 88;
-
-  return 11;
-}
-
-byte reply0x3C(byte *buff) {
-  buff[0] = 76;
-  buff[1] = 101;
-  buff[2] = 110;
-  buff[3] = 111;
-  buff[4] = 118;
-  buff[5] = 111;
-  buff[6] = 32;
-  buff[7] = 74;
-  buff[8] = 97;
-  buff[9] = 112;
-  buff[10] = 97;
-  buff[11] = 110;
-  buff[12] = 145;
-  buff[13] = 46;
-  buff[14] = 93;
-  buff[15] = 230;
-
-  return 16;
-}
-
-byte reply0x3E(byte *buff) {
-  buff[0] = 1;
-  buff[1] = 0;
-
-  return 2;
-}
-
-byte reply0x3F(byte *buff) {
-  buff[0] = 47;
-  buff[1] = 79;
-
-  return 2;
-}
-
-byte reply0x16(byte *buff) {
-  buff[0] = 224;
-  buff[1] = 192;
-
-  return 2;
-}
-
-byte reply0x14(byte *buff) {
-  buff[0] = 228;
-  buff[1] = 12;
-
-  return 2;
-}
-
-byte reply0x15(byte *buff) {
-  int lower, higher;
-  
-  splitNum(CHARGE_VOLTAGE, &lower, &higher);
-  buff[0] = lower;
-  buff[1] = higher;
-
-  return 2;
-}
+// 0x07
 
 byte reply0x08(byte *buff) {
   buff[0] = 137;
@@ -301,17 +137,7 @@ byte reply0x08(byte *buff) {
   return 2;
 }
 
-byte reply0x3B(byte *buff) {
-  buff[0] = 135;
-  buff[1] = 11;
-
-  return 2;
-}
-
 byte reply0x09(byte *buff) {
-  //buff[0] = 79;
-  //buff[1] = 48;
-
   int lower, higher;
 
   // Values of the resistors used in the voltage divider
@@ -330,12 +156,51 @@ byte reply0x09(byte *buff) {
   buff[0] = lower;
   buff[1] = higher;
 
+  return 2;
+}
 
+byte reply0x0a(byte *buff) {
+  if (mode == 0) {
+    buff[0] = 0;
+    buff[1] = 0;
+  } else {
+    buff[0] = 0xF8;
+    buff[1] = 0xFC;
+  }
 
   return 2;
 }
 
-byte reply0x0F(byte *buff) {
+byte reply0x0b(byte *buff) {
+  if (mode == 0) {
+    buff[0] = 0;
+    buff[1] = 0;
+  } else {
+    buff[0] = 0xF6;
+    buff[1] = 0xFC;
+  }
+
+  return 2;
+}
+
+byte reply0x0c(byte *buff) {
+  buff[0] = 0x00;
+  buff[1] = 0x00;
+
+  return 2;
+}
+
+// Relative state of charge
+byte reply0x0d(byte *buff) {
+  buff[0] = 0x5b;
+  buff[1] = 0x00;
+
+  return 2;
+}
+
+// 0x0e
+
+byte reply0x0f(byte *buff) {
   int lower, higher;
 
   float r1 = 9.89;
@@ -372,41 +237,10 @@ byte reply0x10(byte *buff) {
   return 2;
 }
 
-byte reply0x0A(byte *buff) {
-  if (mode == 0) {
-    buff[0] = 0;
-    buff[1] = 0;
-  } else {
-    buff[0] = 0xF8;
-    buff[1] = 0xFC;
-  }
-
-  return 2;
-}
-
 // Run time to empty
 byte reply0x11(byte *buff) {
   buff[0] = 60;
   buff[1] = 0x00;
-
-  return 2;
-}
-
-byte reply0x0B(byte *buff) {
-  if (mode == 0) {
-    buff[0] = 0;
-    buff[1] = 0;
-  } else {
-    buff[0] = 0xF6;
-    buff[1] = 0xFC;
-  }
-
-  return 2;
-}
-
-byte reply0x13(byte *buff) {
-  buff[0] = 255;
-  buff[1] = 255;
 
   return 2;
 }
@@ -418,6 +252,15 @@ byte reply0x12(byte *buff) {
   return 2;
 }
 
+byte reply0x13(byte *buff) {
+  buff[0] = 255;
+  buff[1] = 255;
+
+  return 2;
+}
+
+// 0x14-0x16
+
 byte reply0x17(byte *buff) {
   buff[0] = 20;
   buff[1] = 5;
@@ -425,34 +268,109 @@ byte reply0x17(byte *buff) {
   return 2;
 }
 
-byte reply0x0C(byte *buff) {
-  buff[0] = 0x00;
-  buff[1] = 0x00;
+byte reply0x14(byte *buff) {
+  buff[0] = 228;
+  buff[1] = 12;
 
   return 2;
 }
 
-// Relative state of charge
-byte reply0x0D(byte *buff) {
-  buff[0] = 0x5b;
-  buff[1] = 0x00;
+byte reply0x15(byte *buff) {
+  int lower, higher;
+  
+  splitNum(CHARGE_VOLTAGE, &lower, &higher);
+  buff[0] = lower;
+  buff[1] = higher;
 
   return 2;
 }
 
-byte reply0x30(byte *buff) {
-  buff[0] = 112;
-  buff[1] = 156;
-  buff[2] = 191;
-  buff[3] = 25;
-  buff[4] = 132;
-  buff[5] = 74;
-  buff[6] = 151;
-  buff[7] = 0;
-  buff[8] = 11;
-  buff[9] = 0;
+byte reply0x16(byte *buff) {
+  buff[0] = 224;
+  buff[1] = 192;
 
-  return 10;
+  return 2;
+}
+
+// 0x17
+
+byte reply0x18(byte *buff) {
+  int lower, higher;
+  
+  splitNum(BATTERY_CAPACITY_DESIGN, &lower, &higher);
+  buff[0] = lower;
+  buff[1] = higher;
+  
+  return 2;
+}
+
+byte reply0x19(byte *buff) {
+  int lower, higher;
+  
+  splitNum(BATTERY_VOLTAGE, &lower, &higher);
+  buff[0] = lower;
+  buff[1] = higher;
+  
+  return 2;
+}
+
+byte reply0x1a(byte *buff) {
+  buff[0] = 49;
+  return 1;
+}
+
+byte reply0x1b(byte *buff) {
+  buff[0] = 156;
+  buff[1] = 61;
+  return 2;
+}
+
+byte reply0x1c(byte *buff) {
+  int lower, higher;
+  
+  splitNum(SERIAL, &lower, &higher);
+  buff[0] = lower;
+  buff[1] = higher;
+  
+  return 2;
+}
+
+// 0x1d-0x1f
+
+byte reply0x20(byte *buff) {
+  char *battery_vendor = BATTERY_VENDOR;
+
+  for (int x = 0; x < strlen(battery_vendor); ++x) {
+    buff[x] = battery_vendor[x];
+  }
+
+  int end = strlen(battery_vendor);
+  
+  buff[end + 0] = 0;
+  buff[end + 1] = 49;
+  buff[end + 2] = 49;
+
+  return strlen(battery_vendor) + 3;
+}
+
+byte reply0x21(byte *buff) {
+  char *battery_model = BATTERY_MODEL;
+
+  for (int x = 0; x < strlen(battery_model); ++x) {
+    buff[x] = battery_model[x];
+  }
+
+  return strlen(battery_model);
+}
+
+// Device chemistry
+byte reply0x22(byte *buff) {
+  buff[0] = 76;
+  buff[1] = 73;
+  buff[2] = 79;
+  buff[3] = 78;
+
+  return 4;
 }
 
 byte reply0x23(byte *buff) {
@@ -472,19 +390,117 @@ byte reply0x23(byte *buff) {
   return 12;
 }
 
-byte reply0x3D(byte *buff) {
+// 0x24-0x2e
+
+// ?
+byte reply0x2f(byte *buff) {
+  buff[0] = 49;
+  buff[1] = 90;
+  buff[2] = 74;
+  buff[3] = 51;
+  buff[4] = 74;
+  buff[5] = 49;
+  buff[6] = 49;
+  buff[7] = 77;
+  buff[8] = 49;
+  buff[9] = 50;
+  buff[10] = 88;
+
+  return 11;
+}
+
+byte reply0x30(byte *buff) {
+  buff[0] = 112;
+  buff[1] = 156;
+  buff[2] = 191;
+  buff[3] = 25;
+  buff[4] = 132;
+  buff[5] = 74;
+  buff[6] = 151;
+  buff[7] = 0;
+  buff[8] = 11;
+  buff[9] = 0;
+
+  return 10;
+}
+
+// 0x31-0x34
+
+// ?
+byte reply0x35(byte *buff) {
+  buff[0] = 64;
+  buff[1] = 0;
+
+  return 2;
+}
+
+// 0x36
+
+// ?
+byte reply0x37(byte *buff) {
+  buff[0] = 4;
+  buff[1] = 0;
+  buff[2] = 61;
+  buff[3] = 94;
+  buff[4] = 97;
+  buff[5] = 1;
+  buff[6] = 64;
+  buff[7] = 1;
+
+  return 8;
+}
+
+// 0x38-0x3a
+
+byte reply0x3b(byte *buff) {
+  buff[0] = 135;
+  buff[1] = 11;
+
+  return 2;
+}
+
+byte reply0x3c(byte *buff) {
+  buff[0] = 76;
+  buff[1] = 101;
+  buff[2] = 110;
+  buff[3] = 111;
+  buff[4] = 118;
+  buff[5] = 111;
+  buff[6] = 32;
+  buff[7] = 74;
+  buff[8] = 97;
+  buff[9] = 112;
+  buff[10] = 97;
+  buff[11] = 110;
+  buff[12] = 145;
+  buff[13] = 46;
+  buff[14] = 93;
+  buff[15] = 230;
+
+  return 16;
+}
+
+byte reply0x3d(byte *buff) {
   buff[0] = 136;
   buff[1] = 11;
 
   return 2;
 }
 
-byte reply0x06(byte *buff) {
-  buff[0] = 100;
+byte reply0x3e(byte *buff) {
+  buff[0] = 1;
   buff[1] = 0;
 
   return 2;
 }
+
+byte reply0x3f(byte *buff) {
+  buff[0] = 47;
+  buff[1] = 79;
+
+  return 2;
+}
+
 
 // Store a mapping of bytes to functions
 // index 0 is used to reply to byte command 0, index 1 is used to reply to byte command 1, etc.
@@ -503,12 +519,12 @@ byte (* funMap [])(byte*) = {
   NULL,
   reply0x08,
   reply0x09,
-  reply0x0A,
-  reply0x0B,
-  reply0x0C,
-  reply0x0D,
+  reply0x0a,
+  reply0x0b,
+  reply0x0c,
+  reply0x0d,
   NULL,
-  reply0x0F,
+  reply0x0f,
   reply0x10,
   reply0x11,
   reply0x12,
@@ -519,9 +535,9 @@ byte (* funMap [])(byte*) = {
   reply0x17,
   reply0x18,
   reply0x19,
-  reply0x1A,
-  reply0x1B,
-  reply0x1C,
+  reply0x1a,
+  reply0x1b,
+  reply0x1c,
   NULL,
   NULL,
   NULL,
@@ -540,7 +556,7 @@ byte (* funMap [])(byte*) = {
   NULL,
   NULL,
   NULL,
-  reply0x2F,
+  reply0x2f,
   reply0x30,
   NULL,
   NULL,
@@ -552,11 +568,11 @@ byte (* funMap [])(byte*) = {
   NULL,
   NULL,
   NULL,
-  reply0x3B,
-  reply0x3C,
-  reply0x3D,
-  reply0x3E,
-  reply0x3F
+  reply0x3b,
+  reply0x3c,
+  reply0x3d,
+  reply0x3e,
+  reply0x3f
 };
 
 // Used to store replies to commands
@@ -597,11 +613,11 @@ void receiveEvent (uint8_t howMany)
 void requestEvent () {
   // Look up the callback associated with the current command, NULL if no match is found
   smbusCallback callback = funMap[command];
-  
+
   // No matching callback was found, return without further processing
   if (callback == null)
     return;
- 
+
   // Call matching callback, which writes to the global buffer and returns the amount of bytes written
   int len = callback(buffGlobal);
 
